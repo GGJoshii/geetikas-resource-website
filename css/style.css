@@ -16,3 +16,8 @@ p {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
 }
+
+p {
+    color:chartreuse;
+    background-color: blue;
+}
