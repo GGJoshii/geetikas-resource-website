@@ -8,14 +8,15 @@ h1 {
 h2 {
     color: #000000;
     text-align: left;
-    font-size: 34px;
+    font-size: 24px;
+    position: left;
 }
 
 h3 {
     color: #000000;
     text-align: left;
-    font-size: 34px;
-    position: center;
+    font-size: 24px;
+    position: left;
 }
 
 /* Style the search box inside the navigation bar */
@@ -47,8 +48,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
+    width: 50vw;
   }
   
   .text-container h1{
@@ -83,19 +84,26 @@ h3 {
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
 p {
+    text-align: left;
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 20px;
+    font-size: 13px;
 }
 
 b {
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 20px;
-    text-align: center;
+    font-size: 13px;
+    text-align: left;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 13px;
+    background-color: #DFC5E8;
+    text-align: left;
 }
 
 html {
     scroll-behavior: smooth;
-    background-color: #DFC5E8;
 }
 
   /* Dropdown Button */
