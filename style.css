@@ -89,12 +89,14 @@ p {
 b {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 24px;
+    text-align: center;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
     background-color: #DFC5E8;
+    text-align: center;
 }
 
 html {
