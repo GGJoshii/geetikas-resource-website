@@ -5,7 +5,7 @@ h1 {
 }
 
 .parent {position: sticky; margin: 0 0 50px; padding: 50px; padding-left: 300px; min-height: 100px;}
-.parent .fixed {position: sticky; left: 20px; width: 200px; background-color: #99f;}
+.parent .fixed {position: sticky; left: 20px; width: 200px;}
 
 p {
     text-align: center;
