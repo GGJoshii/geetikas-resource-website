@@ -22,20 +22,6 @@ body {
     background-color: #DFC5E8;
 }
 
-.rectangle {
-    height: 416px;
-    width: 211px;
-    background-color: #3F0257;
-    position: left;
-}
-
-.rectangle2 {
-    height: 416px;
-    width: 211px;
-    background-color: #3F0257;
-    position: right;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -101,7 +87,6 @@ html {
 }
 
 /*background flowers*/
-
 .hero {
   background-color: #0040C1;
   position: relative;
