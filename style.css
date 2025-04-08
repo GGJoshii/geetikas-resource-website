@@ -102,6 +102,23 @@ body {
     text-align: left;
 }
 
+head {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+
+.topnav {
+    text-align: left;
+}
+
+button {
+    text-align: right;
+}
+
+footer {
+    text-align: left;
+}
+
 html {
     scroll-behavior: smooth;
 }
