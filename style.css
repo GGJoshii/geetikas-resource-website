@@ -21,3 +21,17 @@ body {
 html {
     scroll-behavior: smooth;
   }
+
+.imgBox, .textBox{
+    float: left;
+    box-sizing: border-box;
+}
+
+.textBox{
+   height: 70px;
+   width: 100px;
+   background-color: grey;
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+}
