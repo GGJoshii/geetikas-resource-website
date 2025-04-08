@@ -4,6 +4,42 @@ h1 {
     font-weight: bold;
 }
 
+.text-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-container h1{
+    margin: 0;
+    font-size: 150px;
+    color: rgba(225,225,225, .01);
+    background-image: url(flowersbackground.jpg);
+    background-repeat: repeat;
+    background-clip:text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+    @keyframes animate {
+      0%, 100% {
+        background-position: left top;
+      }
+      25%{
+        background-position: right bottom;
+       }
+      50% {
+        background-position: left bottom;
+      }
+      75% {
+        background-position: right top;
+      }   
+  }
+
 .parent {position: sticky; margin: 0 0 100px; padding: 50px; padding-left: 100px; min-height: 50px;}
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
