@@ -1,6 +1,6 @@
 h1 {
     color: #000000;
-    font-size: 76px;
+    font-size: 120px;
     font-weight: bold;
 }
 
@@ -8,7 +8,7 @@ h2 {
     color: #000000;
     text-align: left;
     font-size: 24px;
-    position: right;
+    position: left;
 }
 
 h3 {
@@ -16,27 +16,6 @@ h3 {
     text-align: center;
     font-size: 24px;
     position: center;
-}
-
-h4 {
-    color: #000000;
-    text-align: left;
-    font-size: 24px;
-    position: center;
-}
-
-h5 {
-    color: #000000;
-    text-align: left;
-    font-size: 24px;
-    position: left;
-}
-
-h6 {
-    color: #000000;
-    text-align: left;
-    font-size: 24px;
-    position: left;
 }
 
 .text-container {
