@@ -59,13 +59,13 @@ html {
 }
   
 /* Change color of dropdown links on hover */
-.dropdown-content a:active {background-color: #ddd;}
+.dropdown-content a:click {background-color: #ddd;}
   
 /* Show the dropdown menu on hover */
-.dropdown:active .dropdown-content {display: block;}
+.dropdown:click .dropdown-content {display: block;}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:active .dropbtn {background-color: #eda8f9;}
+.dropdown:click .dropbtn {background-color: #eda8f9;}
   
 /* This align the icon to the right */
 #icon{
