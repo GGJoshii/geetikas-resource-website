@@ -57,6 +57,8 @@ html {
     text-decoration: none;
     display: block;
 }
+
+.show {display:block;}
   
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #d56fe7;}
