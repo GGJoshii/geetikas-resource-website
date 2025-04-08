@@ -26,7 +26,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Dropdown Button */
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #3F0257;
+  }
+
+  /* Dropdown Button */
+
 .dropbtn {
     background-color: #3F0257;
     color: #FBFF70;
