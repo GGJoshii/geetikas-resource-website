@@ -4,8 +4,19 @@ h1 {
     font-weight: bold;
 }
 
-.parent {position: sticky; margin: 0 0 50px; padding: 50px; padding-left: 300px; min-height: 100px;}
-.parent .sticky {position: sticky; left: 20px; width: 200px;}
+.parent {
+    position: sticky; 
+    margin: 0 0 50px; 
+    padding: 50px; 
+    padding-left: 300px; 
+    min-height: 100px;
+}
+
+.parent .sticky {
+    position: sticky; 
+    left: 20px; 
+    width: 200px;
+}
 
 p {
     text-align: center;
@@ -27,7 +38,7 @@ html {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #2228e6;
+    background-color: #2e35fb;
     color: rgb(255, 255, 255);
     padding: 16px;
     font-size: 16px;
@@ -46,26 +57,26 @@ html {
     position: sticky;
     background-color: #f3b2fa;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(65, 1, 67, 0.2);
     z-index: 1;
 }
   
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: rgb(255, 255, 255);
+    color: rgb(99, 8, 90);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
   
 /* Change color of dropdown links on hover */
-.dropdown-content a:click {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #d56fe7;}
   
 /* Show the dropdown menu on hover */
-.dropdown:click .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: inline-block;}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:click .dropbtn {background-color: #eda8f9;}
+.dropdown:hover .dropbtn {background-color: #eda8f9;}
   
 /* This align the icon to the right */
 #icon{
