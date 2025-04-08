@@ -28,6 +28,11 @@ html {
 }
 
 .textBox{
+    float: left;
+    box-sizing: border-box;
+}
+
+.textBox{
    height: 70px;
    width: 100px;
    background-color: white;
