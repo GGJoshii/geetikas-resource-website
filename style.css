@@ -79,7 +79,7 @@ html {
   .show {display:block;}
 
   /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(52, 5, 73);}
+.dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
