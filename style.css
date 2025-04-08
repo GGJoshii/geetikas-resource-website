@@ -13,9 +13,9 @@ h2 {
 
 h3 {
     color: #000000;
-    text-align: center;
+    text-align: left;
     font-size: 24px;
-    position: center;
+    position: left;
 }
 
 /* Style the search box inside the navigation bar */
@@ -83,7 +83,7 @@ h3 {
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
 p {
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
 }
@@ -91,14 +91,14 @@ p {
 b {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
-    text-align: center;
+    text-align: left;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
     background-color: #DFC5E8;
-    text-align: center;
+    text-align: left;
 }
 
 html {
