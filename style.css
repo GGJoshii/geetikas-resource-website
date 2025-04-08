@@ -27,55 +27,6 @@ html {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #2e35fb;
-    color: rgb(255, 255, 255);
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-  
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: sticky;
-    display: inline-block;
-}
-  
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: sticky;
-    background-color: #f3b2fa;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(65, 1, 67, 0.2);
-    z-index: 1;
-}
-  
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: rgb(99, 8, 90);
-    padding: 16px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.show {display:block;}
-  
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #d56fe7;}
-  
-/* Show the dropdown menu on hover */
-.dropdown.onclick .dropdown-content {display: flex;}
-  
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #eda8f9;}
-  
-/* This align the icon to the right */
-#icon{
-      align-items: right;
-}
-
-/* Dropdown Button */
-.dropbtn {
     background-color: #3498DB;
     color: white;
     padding: 16px;
@@ -118,3 +69,56 @@ html {
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+  
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #2e35fb;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: sticky;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f3b2fa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(65, 1, 67, 0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(99, 8, 90);
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display: block;}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #d56fe7;}
+  
+/* Show the dropdown menu on hover */
+.dropbtn.onclick .dropdown-content {display: inline-block;}
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #eda8f9;}
+  
+/* This align the icon to the right */
+#icon{
+      align-items: right;
+}
