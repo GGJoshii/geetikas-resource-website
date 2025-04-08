@@ -4,19 +4,8 @@ h1 {
     font-weight: bold;
 }
 
-.button {
-    position: sticky; 
-    margin: 0 0 50px; 
-    padding: 50px; 
-    padding-left: 300px; 
-    min-height: 100px;
-}
-
-.button .sticky {
-    position: sticky; 
-    left: 20px; 
-    width: 200px;
-}
+.parent {position: sticky; margin: 0 0 200px; padding: 70px; padding-left: 200px; min-height: 70px;}
+.parent .sticky {position: sticky; left: 70px; width: 200px;}
 
 p {
     text-align: center;
@@ -73,12 +62,12 @@ html {
 .dropdown-content a:hover {background-color: #d56fe7;}
   
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: inline-block;}
+.dropdown:hover .dropdown-content {display: flex;}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #eda8f9;}
   
 /* This align the icon to the right */
 #icon{
-      align-items: center;
+      align-items: right;
 }
