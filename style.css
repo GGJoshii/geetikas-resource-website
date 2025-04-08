@@ -69,9 +69,6 @@ html {
   
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-/* Show the dropdown menu on hover */
-.dropbtn.onclick .dropdown-content {display: flex;}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #eda8f9;}
