@@ -4,19 +4,8 @@ h1 {
     font-weight: bold;
 }
 
-.imgBox, .textBox{
-    float: left;
-    box-sizing: border-box;
-}
-
-.textBox{
-   height: 70px;
-   width: 100px;
-   background-color: white;
-   color: white;
-   text-align: center;
-   padding-top: 25px;
-}
+.parent {position: relative; margin: 0 0 15px; padding: 5px; padding-left: 100px; min-height: 50px;}
+.parent .fixed {position: absolute; left: 5px; width: 90px; background-color: #99f;}
 
 p {
     text-align: center;
