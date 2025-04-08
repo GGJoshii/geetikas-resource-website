@@ -48,8 +48,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
+    width: 50vw;
   }
   
   .text-container h1{
