@@ -3,6 +3,8 @@ h1 {
     font-size: 120px;
     font-weight: bold;
     text-align: center;
+    position: center;
+    display: inline-flex;
 }
 
 h2 {
@@ -10,6 +12,7 @@ h2 {
     text-align: left;
     font-size: 34px;
     position: center;
+    display: inline-flex;
 }
 
 h3 {
@@ -17,6 +20,7 @@ h3 {
     text-align: left;
     font-size: 34px;
     position: center;
+    display: inline-flex;
 }
 
 /* Style the search box inside the navigation bar */
@@ -86,12 +90,14 @@ h3 {
 p {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 20px;
+    display: inline-flex;
 }
 
 b {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 20px;
     text-align: center;
+    display: inline-flex;
 }
 
 a {
