@@ -4,6 +4,20 @@ h1 {
     font-weight: bold;
 }
 
+.imgBox, .textBox{
+    float: left;
+    box-sizing: border-box;
+}
+
+.textBox{
+   height: 70px;
+   width: 100px;
+   background-color: white;
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+}
+
 p {
     text-align: center;
 }
@@ -21,22 +35,3 @@ body {
 html {
     scroll-behavior: smooth;
   }
-
-.imgBox, .textBox{
-    float: left;
-    box-sizing: border-box;
-}
-
-.textBox{
-    float: left;
-    box-sizing: border-box;
-}
-
-.textBox{
-   height: 70px;
-   width: 100px;
-   background-color: white;
-   color: white;
-   text-align: left;
-   padding-top: 25px;
-}
