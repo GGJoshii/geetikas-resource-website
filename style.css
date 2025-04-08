@@ -25,8 +25,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #690c91;
@@ -68,7 +66,7 @@ html {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #690c91;}
+  .dropdown-content a:hover {background-color: #450860; border: #f2ff00;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
