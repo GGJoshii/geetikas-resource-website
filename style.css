@@ -4,8 +4,8 @@ h1 {
     font-weight: bold;
 }
 
-.parent {position: sticky; margin: 0 0 200px; padding: 70px; padding-left: 200px; min-height: 70px;}
-.parent .sticky {position: sticky; left: 70px; width: 200px;}
+.parent {position: sticky; margin: 0 0 100px; padding: 50px; padding-left: 100px; min-height: 50px;}
+.parent .sticky {position: sticky; left: 50px; width: 100px;}
 
 p {
     text-align: center;
