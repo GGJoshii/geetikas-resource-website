@@ -31,6 +31,8 @@ h2 {
     text-align: left;
     font-size: 24px;
     position: left;
+    font-family: Axial cut;
+    font-weight: bold;
 }
 
 h3 {
@@ -38,6 +40,8 @@ h3 {
     text-align: left;
     font-size: 24px;
     position: left;
+    font-family: Axial cut;
+    font-weight: bold;
 }
 
 /* Style the search box inside the navigation bar */
@@ -49,6 +53,7 @@ h3 {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    font-family: Axial cut;
   }
 
 .text-container {
@@ -71,6 +76,8 @@ h3 {
     text-transform: uppercase;
     font-weight: 900;
     justify-content: center;
+    font-family: Axial cut;
+    font-weight: bold;
   }
   
     @keyframes animate {
@@ -117,8 +124,9 @@ text-align: center;
 }
 
 head {
-    font-family: 'Times New Roman', Times, serif; 
     text-align: center;
+    font-family: Axial cut;
+    font-weight: bold;
 }
 
 .topnav {
@@ -150,6 +158,8 @@ html {
     align-items: center;
     align-content: center;
     justify-content: center;
+    font-family: Axial cut;
+    font-weight: bold;
   }
   
   /* Dropdown button on hover & focus */
@@ -190,6 +200,8 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    font-family: Axial cut;
+    font-weight: bold;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
