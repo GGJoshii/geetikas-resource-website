@@ -103,6 +103,7 @@ h3 {
 
 p {
     text-align: left;
+    vertical-align: 50px;
     font-size: 13px;
     font-family: Brandon Grotesque;
 }
