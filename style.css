@@ -12,7 +12,7 @@ h1 {
 
 nav {
   margin: 0;
-  padding: 12px;
+  padding: 12px 70px;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +170,7 @@ html {
 .dropbtn {
     background-color: #3F0257;
     color: #FBFF70;
+    position: relative;
     padding: 12px;
     font-size: 14px;
     border-color: #FBFF70;
@@ -182,6 +183,7 @@ html {
   .dropbtn:hover, .dropbtn:focus {
     background-color: #2e0240;
     border-color: #dade56;
+    position: relative;
     align-content: center;
   }
   
@@ -189,12 +191,13 @@ html {
   .dropdown {
     position: center;
     align-content: center;
+    position: relative;
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
-    position: center;
+    position: relative;
     background-color: #DFC5E8;
     border: #3F0257;
     padding: 12px;
@@ -206,6 +209,7 @@ html {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
+    position: relative;
     padding: 12px;
     text-decoration: none;
     border-color: #3F0257;
