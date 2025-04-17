@@ -201,6 +201,7 @@ html {
     background-color: #DFC5E8;
     border: #3F0257;
     padding: 12px;
+    font-size: 14px;
     box-shadow: 0px 12px 14px 0px rgba(0,0,0,0.2);
     z-index: 1;
     align-content: center;
@@ -208,14 +209,13 @@ html {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
     position: relative;
     padding: 12px;
-    text-decoration: none;
     border-color: #3F0257;
     color: #3F0257;
     align-content: center;
     font-family: Axial cut;
+    font-size: 14px;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
