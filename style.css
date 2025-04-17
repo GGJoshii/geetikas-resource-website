@@ -12,7 +12,7 @@ h1 {
 
 nav {
   margin: 0;
-  padding: 24px 12px;
+  padding: 12px 14px;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +24,7 @@ nav {
 }
 
 h2 {
-    color: #FFFFFF;
+    color: #000000;
     text-align: left;
     font-size: 35px;
     position: left;
@@ -39,6 +39,14 @@ h3 {
     font-family: Axial cut;
 }
 
+h4 {
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 35px;
+  position: left;
+  font-family: Axial cut;
+}
+
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: right;
@@ -46,7 +54,7 @@ h3 {
     border-radius: 20px;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Axial cut;
   }
 
@@ -112,7 +120,7 @@ b {
 
 section {
     margin-top: 30px;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 20px;
 }
 
@@ -125,7 +133,7 @@ body {
 
 header {
 background-color: #DFC5E8;
-padding: 20px, 0, 10px;
+padding: 10px, 0, 10px;
 text-align: center;
 font-family: Brandon Grotesque;
 font-size: 18px;
@@ -140,9 +148,8 @@ head {
     text-align: right;
 }
 
-button {
+.dropdown {
     text-align: right;
-    border-radius: 60px;
     border-color: #3F0257;
     background-color: #DFC5E8;
     color: #3F0257;
@@ -157,12 +164,22 @@ a {
   font-size: 18px;
 }
 
+button {
+  float: right;
+  padding: 6px;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+  font-family: Axial cut;
+}
+
 footer {
     text-align: left;
     font-family: Brandon Grotesque;
     font-size: 18px;
     margin: 0;
-    padding: 24px 12px;
+    padding: 12px 12px;
     overflow: hidden;
     display: block;
     flex-wrap: wrap;
@@ -207,13 +224,13 @@ html {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: none;
+    display: flex;
     position: relative;
     background-color: #DFC5E8;
     border: #3F0257;
     padding: 12px;
     font-size: 18px;
-    box-shadow: 0px 12px 14px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.2);
     z-index: 1;
     align-content: center;
   }
@@ -233,10 +250,10 @@ html {
 .dropdown:hover .dropbtn {background-color: #2e0240; border: #dade56;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display: block;}
+  .show {display: inline-block;}
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: inline-block;}
