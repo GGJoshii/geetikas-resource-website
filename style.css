@@ -1,5 +1,5 @@
-@font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf');} 
-@font-face { font-family: Brandon Grotesque; src: url('HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
+@font-face { font-family: Axial cut; src: url('fonts/Axialcut-Regular.ttf');} 
+@font-face { font-family: Brandon Grotesque; src: url('fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
 
 h1 {
       text-align: center;
@@ -71,7 +71,7 @@ h3 {
     margin: 0;
     font-size: 130px;
     color: rgba(225,225,225, .01);
-    background-image: url(flowersbackground.jpg);
+    background-image: url(images/flowersbackground.jpg);
     background-repeat: repeat;
     background-clip: text;
     animation: animate 8s ease-in-out infinite;
