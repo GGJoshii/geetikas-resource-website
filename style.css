@@ -144,6 +144,9 @@ head {
 
 button {
     text-align: left;
+    border-radius: 30;
+    border-color: #3F0257;
+    background-color: #DFC5E8;
 }
 
 footer {
