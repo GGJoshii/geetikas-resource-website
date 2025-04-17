@@ -1,5 +1,7 @@
 @font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf'); } 
-@font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Regular.ttf');}
+@font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Bold.ttf');}
+@font-face { font-family: GO; src: url('Go-Regular.ttf'); } 
+@font-face { font-family: GO; font-weight: bold; src: url('Go-Mono-Bold.ttf');}
 
 h1 {
       text-align: center;
@@ -100,18 +102,19 @@ h3 {
 
 p {
     text-align: left;
-    font-family: 'Times New Roman', Times, serif; 
     font-size: 13px;
+    font-family: GO;
 }
 
 b {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: GO;
+    font-weight: bold;    
     font-size: 13px;
     text-align: left;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: GO;
     font-size: 13px;
     background-color: #DFC5E8;
     text-align: left;
@@ -121,6 +124,8 @@ header {
 background-color: #DFC5E8;
 padding: 20px 0 10px;
 text-align: center;
+font-family: Axial cut;
+font-weight: bold;
 }
 
 head {
@@ -139,6 +144,7 @@ button {
 
 footer {
     text-align: left;
+    font-family: GO;
 }
 
 html {
