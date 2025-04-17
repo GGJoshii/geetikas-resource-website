@@ -19,7 +19,7 @@ h1 {
 
 nav {
   margin: 0;
-  padding: 0;
+  padding: 6px;
   overflow: hidden;
   display: block;
   flex-wrap: wrap;
@@ -102,10 +102,6 @@ h3 {
 
 .parent {position: sticky; margin: 0 0 100px; padding: 50px; padding-left: 100px; min-height: 50px;}
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
-
-section {
-align-content: center;
-}
 
 p {
     text-align: left;
