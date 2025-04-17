@@ -12,7 +12,7 @@ h1 {
 
 nav {
   margin: 0;
-  padding: 6px;
+  padding: 12px;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +99,7 @@ h3 {
 
 p {
     vertical-align: 20px;
+    text-align: 50px;
     font-size: 13px;
     font-family: Brandon Grotesque;
 }
@@ -112,9 +113,7 @@ b {
 
 section {
     margin-top: 26px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 15px;
 }
 
