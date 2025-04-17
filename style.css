@@ -17,19 +17,13 @@ h1 {
 
 nav {
   margin-top: 10px;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   display: inline-flex;
   unicode-bidi: isolate;
   color: #3F0257;
-}
-
-/* This align the icon to the right */
-.icon {
-  align-items: right;
-  border-color: #3F0257;
 }
 
 h2 {
