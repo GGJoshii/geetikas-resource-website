@@ -18,7 +18,7 @@ nav {
   margin: 0;
   padding: 6px;
   overflow: hidden;
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   gap: 2px;
   display: inline-flex;
@@ -53,6 +53,7 @@ h3 {
     padding: 6px;
     border-radius: 20px;
     border: #3F0257;
+    color: #3F0257;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
