@@ -154,6 +154,15 @@ button {
 footer {
     text-align: left;
     font-family: Brandon Grotesque;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+    display: block;
+    flex-wrap: wrap;
+    gap: 2px;
+    display: inline-flex;
+    unicode-bidi: isolate;
+    background-color: #3F0257;
 }
 
 html {
