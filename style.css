@@ -18,14 +18,16 @@ h1 {
 }
 
 nav {
-  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   display: block;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   display: inline-flex;
   unicode-bidi: isolate;
-  color: #3F0257;
+  background-color: #3F0257;
 }
 
 h2 {
