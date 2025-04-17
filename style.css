@@ -1,11 +1,10 @@
 @font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf');} 
 @font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Bold.ttf');}
 @font-face { font-family: Brandon Grotesque; src: url('HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
-@font-face { font-family: Cute Notes; src: url('Cute\ Notes.ttf');} 
 
 h1 {
       text-align: center;
-      font-family: Cute Notes;
+      font-family: Axial cut;
       color: hsl(0, 0%, 0%);
       display: block;
       font-size: 100px;
@@ -13,13 +12,12 @@ h1 {
       margin-block-end: 6px;
       margin-inline-start: 0px;
       margin-inline-end: 0px;
-      font-weight: bold;
       unicode-bidi: isolate;
 }
 
 nav {
   margin: 0;
-  padding: 22px 24px;
+  padding: 22px;
   overflow: hidden;
   display: block;
   flex-wrap: wrap;
@@ -83,7 +81,6 @@ h3 {
     font-weight: 900;
     justify-content: center;
     font-family: Axial cut;
-    font-weight: bold;
   }
   
     @keyframes animate {
@@ -134,16 +131,14 @@ body {
 
 header {
 background-color: #DFC5E8;
-padding: 20px 0 10px;
+padding: 20px, 0, 10px;
 text-align: center;
 font-family: Brandon Grotesque;
-font-weight: bold;
 }
 
 head {
     text-align: center;
     font-family: Axial cut;
-    font-weight: bold;
 }
 
 .topnav {
@@ -207,7 +202,7 @@ html {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 12px 14px;
+    padding: 12px;
     text-decoration: none;
     border-color: #3F0257;
     align-items: center;
