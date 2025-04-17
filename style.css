@@ -156,7 +156,6 @@ html {
   /* Dropdown Button */
 
 .dropbtn {
-    display: inline-block;
     background-color: #3F0257;
     color: #FBFF70;
     padding: 12px;
@@ -172,7 +171,6 @@ html {
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    display: inline-block;
     background-color: #2e0240;
     border-color: #dade56;
     align-items: center;
@@ -182,14 +180,13 @@ html {
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: center;
-    display: inline-block;
     align-items: center;
     justify-content: center;
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: inline-flex;
+    display: none;
     position: center;
     background-color: #DFC5E8;
     min-width: 160px;
@@ -205,7 +202,6 @@ html {
     padding: 12px 14px;
     text-decoration: none;
     border-color: #3F0257;
-    display: inline-block;
     align-items: center;
     justify-content: center;
     font-family: Axial cut;
