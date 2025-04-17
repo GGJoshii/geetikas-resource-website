@@ -81,7 +81,7 @@ h4 {
     font-family: Axial cut;
   }
 
-  .text-container section{
+  .container section{
     margin: 0;
     height: 40vh;
     width: 40vw;
@@ -130,7 +130,7 @@ b {
 
 section {
     margin-top: 30px;
-    justify-content: right;
+    justify-content: left;
     margin-bottom: 20px;
 }
 
