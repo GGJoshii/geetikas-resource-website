@@ -1,5 +1,4 @@
 @font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf');} 
-@font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Bold.ttf');}
 @font-face { font-family: Brandon Grotesque; src: url('HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
 
 h1 {
@@ -17,7 +16,7 @@ h1 {
 
 nav {
   margin: 0;
-  padding: 22px;
+  padding: 6px;
   overflow: hidden;
   display: block;
   flex-wrap: wrap;
@@ -171,7 +170,6 @@ html {
     border-color: #FBFF70;
     cursor: pointer;
     align-items: center;
-    align-content: center;
     font-family: Axial cut;
   }
   
@@ -213,10 +211,10 @@ html {
 .dropdown:hover .dropbtn {background-color: #2e0240; border: #dade56;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display: flex;}
+  .show {display:inline-flex;}
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: flex;}
+.dropdown:hover .dropdown-content {display: inline-flex;}
