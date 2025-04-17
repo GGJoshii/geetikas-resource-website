@@ -17,14 +17,14 @@ h1 {
       unicode-bidi: isolate;
 }
 
-.navbar {
+nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
   display: block;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 2px;
   display: inline-flex;
   unicode-bidi: isolate;
   background-color: #3F0257;
@@ -193,7 +193,7 @@ html {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: inline-block;
+    display: inline-flex;
     position: center;
     background-color: #DFC5E8;
     min-width: 160px;
