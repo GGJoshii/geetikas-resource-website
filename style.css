@@ -6,13 +6,13 @@ h1 {
       font-family: Axial cut;
       color: hsl(0, 0%, 0%);
       display: block;
-      font-size: 100px;
+      font-size: 120px;
       unicode-bidi: isolate;
 }
 
 nav {
   margin: 0;
-  padding: 12px 70px;
+  padding: 24px 12px;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -20,12 +20,13 @@ nav {
   display: inline-flex;
   unicode-bidi: isolate;
   background-color: #3F0257;
+  border: #FBFF70;
 }
 
 h2 {
     color: #000000;
     text-align: left;
-    font-size: 24px;
+    font-size: 35px;
     position: left;
     font-family: Axial cut;
 }
@@ -33,7 +34,7 @@ h2 {
 h3 {
     color: #FFFFFF;
     text-align: center;
-    font-size: 24px;
+    font-size: 35px;
     position: center;
     font-family: Axial cut;
 }
@@ -43,11 +44,9 @@ h3 {
     float: right;
     padding: 6px;
     border-radius: 20px;
-    border: #3F0257;
-    color: #3F0257;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    font-size: 22px;
     font-family: Axial cut;
   }
 
@@ -74,6 +73,11 @@ h3 {
     font-family: Axial cut;
   }
   
+  .background-image {
+    width: 200px;
+    height: 80px;
+  }
+
     @keyframes animate {
       0%, 100% {
         background-position: left top;
@@ -93,26 +97,28 @@ h3 {
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
 p {
-    font-size: 13px;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: 10px;
     font-family: Brandon Grotesque;
 }
 
 b {
     font-family: Brandon Grotesque;
-    text-align: 50px;
+    text-align: center;
     vertical-align: 20px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 section {
-    margin-top: 26px;
+    margin-top: 30px;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 body {
     font-family: Brandon Grotesque;
-    font-size: 13px;
+    font-size: 18px;
     background-color: #DFC5E8;
     text-align: left;
 }
@@ -122,36 +128,48 @@ background-color: #DFC5E8;
 padding: 20px, 0, 10px;
 text-align: center;
 font-family: Brandon Grotesque;
+font-size: 18px;
 }
 
 head {
-    text-align: center;
+    text-align: left;
     font-family: Axial cut;
 }
 
 .topnav {
-    text-align: left;
+    text-align: right;
 }
 
 button {
-    text-align: left;
-    border-radius: 30;
+    text-align: right;
+    border-radius: 60px;
     border-color: #3F0257;
     background-color: #DFC5E8;
+    color: #3F0257;
+    font-size: 22px;
+    font-family: Axial cut;
+}
+
+a {
+  text-align: left;
+  font-family: Brandon Grotesque;
+  color: #FBFF70;
+  font-size: 18px;
 }
 
 footer {
     text-align: left;
     font-family: Brandon Grotesque;
+    font-size: 18px;
     margin: 0;
-    padding: 150px;
+    padding: 24px 12px;
     overflow: hidden;
     display: block;
     flex-wrap: wrap;
     display: inline-flex;
     unicode-bidi: isolate;
     background-color: #3F0257;
-    color: #FBFF70;
+    color: #FFFFFF;
 }
 
 html {
@@ -165,7 +183,7 @@ html {
     color: #FBFF70;
     position: relative;
     padding: 12px;
-    font-size: 14px;
+    font-size: 18px;
     border-color: #FBFF70;
     cursor: pointer;
     align-content: center;
@@ -194,7 +212,7 @@ html {
     background-color: #DFC5E8;
     border: #3F0257;
     padding: 12px;
-    font-size: 14px;
+    font-size: 18px;
     box-shadow: 0px 12px 14px 0px rgba(0,0,0,0.2);
     z-index: 1;
     align-content: center;
@@ -208,17 +226,17 @@ html {
     color: #3F0257;
     align-content: center;
     font-family: Axial cut;
-    font-size: 14px;
+    font-size: 18px;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #2e0240; border: #dade56;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display: flex;}
+  .show {display: block;}
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: flex;}
+.dropdown:hover .dropdown-content {display: block;}
