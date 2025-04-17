@@ -23,7 +23,6 @@ nav {
   overflow: hidden;
   display: block;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 2px;
   display: inline-flex;
   unicode-bidi: isolate;
@@ -178,7 +177,6 @@ html {
     cursor: pointer;
     align-items: center;
     align-content: center;
-    justify-content: center;
     font-family: Axial cut;
   }
   
@@ -187,14 +185,12 @@ html {
     background-color: #2e0240;
     border-color: #dade56;
     align-items: center;
-    justify-content: center;
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: center;
     align-items: center;
-    justify-content: center;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -206,7 +202,6 @@ html {
     box-shadow: 0px 12px 14px 0px rgba(0,0,0,0.2);
     z-index: 1;
     align-items: center;
-    justify-content: center;
   }
   
   /* Links inside the dropdown */
@@ -216,7 +211,6 @@ html {
     text-decoration: none;
     border-color: #3F0257;
     align-items: center;
-    justify-content: center;
     font-family: Axial cut;
   }
   
