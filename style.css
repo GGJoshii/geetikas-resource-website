@@ -1,9 +1,9 @@
+@font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf'); } 
+@font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Regular.ttf');}
+
 h1 {
-    color: hsl(0, 0%, 0%);
-    font-size: 100px;
-    font-weight: bold;
-    text-align: center;
-    
+      text-align: center;
+      font-family: Axial cut;
       color: hsl(0, 0%, 0%);
       display: block;
       font-size: 100px;
@@ -44,7 +44,7 @@ h3 {
 .topnav input[type=text] {
     float: right;
     padding: 6px;
-    border-style: groove;
+    border-radius: 20px;
     border: #3F0257;
     margin-top: 8px;
     margin-right: 16px;
