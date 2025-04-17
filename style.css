@@ -25,7 +25,6 @@ nav {
 h2 {
     color: #000000;
     text-align: left;
-    float: left;
     font-size: 24px;
     position: left;
     font-family: Axial cut;
@@ -37,9 +36,9 @@ h2 {
 
 h3 {
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
     font-size: 24px;
-    position: left;
+    position: center;
     font-family: Axial cut;
 }
 
