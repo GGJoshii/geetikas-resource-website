@@ -35,8 +35,8 @@ h2 {
     font-family: Axial cut;
 }
 
-Image {
-  float: right;
+.logo img {
+  align-items: left;
 }
 
 h3 {
