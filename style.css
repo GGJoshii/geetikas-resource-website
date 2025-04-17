@@ -29,6 +29,12 @@ nav {
   unicode-bidi: isolate;
 }
 
+/* This align the icon to the right */
+.icon {
+  align-items: right;
+  border-color: #3F0257;
+}
+
 h2 {
     color: #000000;
     text-align: left;
@@ -47,7 +53,8 @@ h3 {
 .topnav input[type=text] {
     float: right;
     padding: 6px;
-    border: none;
+    border-style: groove;
+    border: #3F0257;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
@@ -205,8 +212,3 @@ html {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
-/* This align the icon to the right */
-.icon{
-    align-items: right;
-}
