@@ -1,12 +1,12 @@
 h1 {
     color: hsl(0, 0%, 0%);
-    font-size: 150px;
+    font-size: 125px;
     font-weight: bold;
     text-align: center;
     
       color: hsl(0, 0%, 0%);
       display: block;
-      font-size: 150px;
+      font-size: 125px;
       margin-block-start: 8px;
       margin-block-end: 8px;
       margin-inline-start: 0px;
@@ -79,13 +79,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 50vw;
+    height: 70vh;
+    width: 70vw;
   }
   
   .text-container h1{
     margin: 0;
-    font-size: 150px;
+    font-size: 130px;
     color: rgba(225,225,225, .01);
     background-image: url(flowersbackground.jpg);
     background-repeat: repeat;
@@ -161,7 +161,7 @@ html {
     color: #FBFF70;
     padding: 12px;
     font-size: 14px;
-    border: none;
+    border-color: #FBFF70;
     cursor: pointer;
     align-items: center;
     align-content: center;
@@ -170,7 +170,7 @@ html {
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
     background-color: #2e0240;
-    border: #FBFF70;
+    border-color: #FBFF70;
     align-items: center;
   }
   
@@ -183,7 +183,7 @@ html {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: none;
+    display: inline-block;
     position: center;
     background-color: #DFC5E8;
     min-width: 160px;
@@ -197,6 +197,7 @@ html {
     color: black;
     padding: 12px 14px;
     text-decoration: none;
+    border-color: #3F0257;
     display: block;
     align-items: center;
   }
