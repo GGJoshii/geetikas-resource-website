@@ -182,9 +182,6 @@ footer {
     padding: 12px 12px;
     overflow: hidden;
     display: block;
-    flex-wrap: wrap;
-    display: inline-flex;
-    unicode-bidi: isolate;
     background-color: #3F0257;
     color: #FFFFFF;
 }
@@ -250,10 +247,10 @@ html {
 .dropdown:hover .dropbtn {background-color: #2e0240; border: #dade56;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display: inline-flex;}
+  .show {display: flex;}
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: inline-flex;}
+.dropdown:hover .dropdown-content {display: flex;}
