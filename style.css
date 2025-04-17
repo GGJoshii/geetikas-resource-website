@@ -80,6 +80,16 @@ h4 {
     justify-content: center;
     font-family: Axial cut;
   }
+
+  .text-container section{
+    margin: 0;
+    height: 40vh;
+    width: 40vw;
+    font-size: 18px;
+    text-align: right;
+    justify-content: center;
+    font-family: Axial cut;
+  }
   
   .background-image {
     width: 200px;
@@ -148,12 +158,12 @@ head {
     text-align: right;
 }
 
-.dropdown {
+button {
     text-align: right;
     border-color: #3F0257;
     background-color: #DFC5E8;
     color: #3F0257;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Axial cut;
 }
 
@@ -162,16 +172,6 @@ a {
   font-family: Brandon Grotesque;
   color: #FBFF70;
   font-size: 18px;
-}
-
-button {
-  float: right;
-  padding: 6px;
-  border-radius: 20px;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 20px;
-  font-family: Axial cut;
 }
 
 footer {
