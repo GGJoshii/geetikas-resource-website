@@ -117,6 +117,15 @@ b {
     text-align: left;
 }
 
+section {
+    margin-top: 26px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+}
+
 body {
     font-family: Brandon Grotesque;
     font-size: 13px;
