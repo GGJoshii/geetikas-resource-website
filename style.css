@@ -36,10 +36,10 @@ h2 {
 }
 
 h3 {
-    color: #000000;
+    color: #FFFFFF;
     text-align: left;
     font-size: 24px;
-    position: center;
+    position: left;
     font-family: Axial cut;
 }
 
@@ -155,10 +155,10 @@ footer {
     overflow: hidden;
     display: block;
     flex-wrap: wrap;
-    gap: 2px;
     display: inline-flex;
     unicode-bidi: isolate;
     background-color: #3F0257;
+    color: #FBFF70;
 }
 
 html {
