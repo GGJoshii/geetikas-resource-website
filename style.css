@@ -17,7 +17,7 @@ h1 {
       unicode-bidi: isolate;
 }
 
-nav {
+.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -103,6 +103,10 @@ h3 {
 .parent {position: sticky; margin: 0 0 100px; padding: 50px; padding-left: 100px; min-height: 50px;}
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
+section {
+align-content: center;
+}
+
 p {
     text-align: left;
     font-size: 13px;
@@ -158,6 +162,7 @@ html {
 .dropbtn {
     display: inline-block;
     background-color: #3F0257;
+    color: #FBFF70;
     padding: 12px;
     font-size: 14px;
     border-color: #FBFF70;
