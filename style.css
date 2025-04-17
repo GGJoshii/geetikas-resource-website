@@ -1,7 +1,6 @@
 @font-face { font-family: Axial cut; src: url('Axialcut-Regular.ttf'); } 
 @font-face { font-family: Axial cut; font-weight: bold; src: url('Axialcut-Bold.ttf');}
-@font-face { font-family: GO; src: url('Go-Regular.ttf'); } 
-@font-face { font-family: GO; font-weight: bold; src: url('Go-Mono-Bold.ttf');}
+@font-face { font-family: Brandon Grotesque; src: url('HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf'); } 
 
 h1 {
       text-align: center;
@@ -108,17 +107,17 @@ h3 {
 p {
     text-align: left;
     font-size: 13px;
-    font-family: Axial cut;
+    font-family: Brandon Grotesque;
 }
 
 b {
-    font-family: Axial cut;
+    font-family: Brandon Grotesque;
     font-size: 13px;
     text-align: left;
 }
 
 body {
-    font-family: Axial cut;
+    font-family: Brandon Grotesque;
     font-size: 13px;
     background-color: #DFC5E8;
     text-align: left;
@@ -128,7 +127,7 @@ header {
 background-color: #DFC5E8;
 padding: 20px 0 10px;
 text-align: center;
-font-family: Axial cut;
+font-family: Brandon Grotesque;
 font-weight: bold;
 }
 
@@ -148,7 +147,7 @@ button {
 
 footer {
     text-align: left;
-    font-family: Axial cut;
+    font-family: Brandon Grotesque;
 }
 
 html {
@@ -212,10 +211,10 @@ html {
 .dropdown:hover .dropbtn {background-color: #2e0240; border: #dade56;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:inline-block;}
+  .show {display:inline-flex;}
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #cba7d7;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: inline-block;}
+.dropdown:hover .dropdown-content {display: inline-flex;}
