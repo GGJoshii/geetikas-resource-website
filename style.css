@@ -208,7 +208,7 @@ html {
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #DFC5E8;
+    background-color: #2e0240;
     border-color: #dade56;
     position: relative;
     align-items: center;
