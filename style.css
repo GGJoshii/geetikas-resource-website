@@ -126,7 +126,7 @@ figcaption {
 	.figure-container {
 		margin: auto;
 		vertical-align: middle;
-		  max-width: 800px;
+		  max-width: 500px;
 			max-height: 500px;
 		position: relative;
 	}
