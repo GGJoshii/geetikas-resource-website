@@ -2,7 +2,7 @@
 @font-face { font-family: Brandon Grotesque; src: url('fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
 
 h1 {
-      text-align: center;
+      text-align: left;
       font-family: Axial cut;
       color: #3F0257;
       display: block;
