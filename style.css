@@ -22,26 +22,6 @@ nav {
   border: #FBFF70;
 }
 
-nav:before {
-  content: "";
-  position: absolute;
-  left: -100%;
-  bottom: 0;
-  top: 0;
-  right: 100%;
-  background-color: #3F0257;
-}
-
-nav:after {
-  content: "";
-  position: absolute;
-  left: 100%;
-  bottom: 0;
-  top: 0;
-  right: -100%;
-  background-color: #3F0257;
-}
-
 h2 {
     color: #000000;
     text-align: left;
@@ -62,6 +42,10 @@ image {
   width: 100%;
   display: block;
   align-items: center;
+}
+
+.logo {
+  align-items: left;
 }
 
 /* Style the search box inside the navigation bar */
@@ -263,7 +247,7 @@ html {
     font-size: 18px;
     box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    align-items: center;
+    align-items: vertical;
   }
   
   /* Links inside the dropdown */
@@ -290,3 +274,4 @@ html {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: flex;}
+
