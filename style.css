@@ -38,10 +38,11 @@ h3 {
   font-family: Axial cut;
 }
 
-figure {
+.figure-container {
   margin: auto;
-  max-width: 500px;
   vertical-align: middle;
+  max-width: 500px;
+	position: relative;
 }
 
 figcaption {
