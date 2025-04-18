@@ -204,15 +204,13 @@ button {
     align-items: right;
 }
 
-.footerbacktotop {
+button back-to-top {
   text-align: right;
   font-family: Axial cut;
   color: #3F0257;
-  border-radius: 20px;
-  border-color: #3F0257;
-  background-color: #DFC5E8;
+  border-radius: 40px;
   font-size: 20px;
-  display: inline;
+  align-items: right;
 }
 
 footer {
