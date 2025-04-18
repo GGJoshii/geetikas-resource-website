@@ -66,6 +66,19 @@ figcaption {
     color: #3F0257;
   }
 
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text2] {
+  float: right;
+  padding: 4px;
+  border-radius: 20px;
+  margin: auto;
+  font-size: 20px;
+  font-family: Axial cut;
+  background-color: #3F0257;
+  border-color: #DFC5E8;
+  color: #DFC5E8;
+}
+
   .topnav a {
     float: center;
     display: block;
@@ -146,13 +159,6 @@ p {
     font-size: 20px;
     text-align: left;
     font-family: Brandon Grotesque;
-}
-
-b {
-    font-family: Brandon Grotesque;
-    text-align: center;
-    vertical-align: 20px;
-    font-size: 20px;
 }
 
 footer a {
@@ -259,7 +265,6 @@ html {
     font-size: 20px;
     box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    align-items: vertical;
   }
   
   /* Links inside the dropdown */
