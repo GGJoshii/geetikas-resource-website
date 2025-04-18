@@ -38,17 +38,15 @@ h3 {
   font-family: Axial cut;
 }
 
-image {
-  width: 100%;
-  display: inline-block;
-  align-items: center;
+figure {
+  margin: auto;
 }
 
-caption {
-  display: inline-block;
+figcaption {
+  color: #000000;
   font-family: Brandon Grotesque;
-  text-align: center;
   font-size: 18px;
+  text-align: center;
 }
 
 .logo {
