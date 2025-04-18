@@ -121,16 +121,7 @@ figcaption {
     align-items: center;
     margin: auto;
   }
-
-	/* figure container */
-	.figure-container {
-		margin: auto;
-		vertical-align: middle;
-		  max-width: 800px;
-			max-height: 800px;
-		position: relative;
-	}
-
+  
   .background-image {
     width: 150px;
     height: 80px;
@@ -220,7 +211,6 @@ footer {
     display: block;
     background-color: #3F0257;
     color: #FFFFFF;
-    align-items: left;
 }
 
 html {
