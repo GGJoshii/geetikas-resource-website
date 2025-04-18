@@ -63,7 +63,7 @@ image {
   }
 
 .text-container {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
