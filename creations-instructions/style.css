@@ -4,7 +4,7 @@
 h1 {
       text-align: center;
       font-family: Axial cut;
-      color: #3F0257;
+      color: #26335E;
       display: block;
       font-size: 120px;
       unicode-bidi: isolate;
@@ -13,13 +13,13 @@ h1 {
 nav {
   margin-top: 10px;
   padding: 12px, 0, 12px;
-  display: inline-flex;
+  display: inline-flex;  
   flex-wrap: wrap;
   justify-content: center;
   gap: none;
   unicode-bidi: isolate;
-  background-color: #3F0257;
-  border: #FBFF70;
+  background-color: #26335E;
+  border: #98FF98;
 }
 
 h2 {
@@ -36,6 +36,14 @@ h3 {
   font-size: 45px;
   position: left;
   font-family: Axial cut;
+}
+
+h4 {
+  color: #26335E;
+  text-align: left;
+  font-size: 20px;
+  display: inline;  
+  font-family: Brandon Grotesque;
 }
 
 figure {
@@ -61,15 +69,15 @@ figcaption {
     margin: auto;
     font-size: 20px;
     font-family: Axial cut;
-    background-color: #DFC5E8;
-    border-color: #3F0257;
-    color: #3F0257;
+    background-color: #C5CBE3;
+    border-color: #26335E;
+    color: #26335E;
   }
 
   .topnav a {
     float: center;
     display: block;
-    color: #3F0257;
+    color: #26335E;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -118,6 +126,13 @@ figcaption {
     text-align: left;
     font-family: Brandon Grotesque;
   }
+
+  .section-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
   
   .background-image {
     width: 150px;
@@ -149,8 +164,8 @@ p {
 }
 
 footer a {
-  font-family: Brandon Grotesque;
-  color: #FBFF70;
+  font-family: Axial cut;
+  color: #98FF98;
   font-size: 20px;
   align-items: left;
 }
@@ -158,14 +173,14 @@ footer a {
 body {
     font-family: Brandon Grotesque;
     font-size: 20px;
-    background-color: #DFC5E8;
+    background-color: #C5CBE3;
     text-align: left;
 }
 
 header {
-background-color: #DFC5E8;
+background-color: #C5CBE3;
 padding: 12px, 0, 12px;
-font-family: Brandon Grotesque;
+font-family: Axial cut;
 font-size: 20px;
 text-align: center;
 }
@@ -181,9 +196,9 @@ head {
 
 button {
     text-align: center;
-    border-color: #3F0257;
-    background-color: #DFC5E8;
-    color: #3F0257;
+    border-color: #26335E;
+    background-color: #C5CBE3;
+    color: #26335E;
     font-size: 20px;
     font-family: Axial cut;
     align-items: right;
@@ -191,8 +206,8 @@ button {
 
 button back-to-top {
   text-align: right;
-  font-family: Brandon Grotesque;
-  color: #3F0257;
+  font-family: Axial cut;
+  color: #26335E;
   border-radius: 40px;
   font-size: 20px;
   align-items: right;
@@ -200,13 +215,13 @@ button back-to-top {
 
 footer {
     text-align: left;
-    font-family: Brandon Grotesque;
+    font-family: Axial cut;
     font-size: 20px;
     margin: 0;
     padding: 12px, 0, 12px;
     overflow: hidden;
     display: block;
-    background-color: #3F0257;
+    background-color: #26335E;
     color: #FFFFFF;
 }
 
@@ -217,12 +232,12 @@ html {
   /* Dropdown Button */
 
 .dropbtn {
-    background-color: #3F0257;
-    color: #FBFF70;
+    background-color: #26335E;
+    color: #98FF98;
     position: relative;
     padding: 12px;
     font-size: 20px;
-    border-color: #FBFF70;
+    border-color: #98FF98;
     cursor: pointer;
     align-items: center;
     font-family: Axial cut;
@@ -230,8 +245,8 @@ html {
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2e0240;
-    border-color: #dade56;
+    background-color: #1b2547;
+    border-color: #98FF98;
     position: relative;
     align-items: center;
   }
@@ -247,7 +262,7 @@ html {
   .dropdown-content {
     display: none;
     position: relative;
-    background-color: #DFC5E8;
+    background-color: #C5CBE3;
     padding: 12px;
     font-size: 20px;
     box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.2);
@@ -260,7 +275,7 @@ html {
     display: flex;
     position: relative;
     padding: 12px;
-    color: #3F0257;
+    color: #26335E;
     text-align: center;
     text-decoration: none;
     font-family: Axial cut;
@@ -274,7 +289,7 @@ html {
   .show {display: flex;}
 
   /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #cba7d7;}
+.dropdown-content a:hover {background-color: #afb5cc;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: flex;}
