@@ -40,6 +40,8 @@ h3 {
 
 figure {
   margin: auto;
+  max-width: 500px;
+  vertical-align: middle;
 }
 
 figcaption {
