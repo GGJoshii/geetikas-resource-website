@@ -1,111 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Flowers</title>
-		<b1>Last Updated: March 20, 2025</b1>
-		<h1>FLOWER TYPES</h1>
-		<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto illo qui porro? Sed modi, ratione aperiam tempore culpa error atque neque est quas labore, adipisci at laboriosam soluta harum doloremque.</h4>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<div class="topnav" id="myTopnav">
+		<input type="text" placeholder="Search"> 
+		<i class="fa fa-search"></i>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+<head>
+		<title>Homepage</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="p5.min.js">
 		<link rel="stylesheet" href="sketch.js">
-	</head>
-
-	<body>
-
+			<logo>
+				<div id="logo">
+				<img src="images/logosquare.png" alt="My Logo" width="75" height="75">
+				</div>
+			</logo>
 		<div id="nav-wrap">
-			<header id="header">
-				<div class="container">
-					<div id="logo">
-						<a href="/"><img src="https://campusrec.unc.edu/wp-content/themes/unccampusrec/images/logo.png" width="430" height="112" alt="UNC Campus Recreation" data-hasqtip="0"></a>
-					</div>
-					<div id="toggle-wrap">
-						<div class="nav-toggle"><div></div></div>
-					</div>
-				</div>
-			</header>
-			<nav id="primary-nav">
-				<div class="nav-slide post-6 page type-page status-publish hentry">
-	
-					<ul id="menu-primary-navigation" class="menu"><li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-55"><a href="https://campusrec.unc.edu/about-us/">FLOWERS<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a>
-	<ul class="sub-menu">
-		<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="https://campusrec.unc.edu/about-us/our-staff/">FLOWER TYPES<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a></li>
-	</ul>
-	</li>
-	<li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-467"><a href="https://campusrec.unc.edu/memberships/">CREATIONS<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a>
-	<ul class="sub-menu">
-		<li id="menu-item-12657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12657"><a href="https://campusrec.unc.edu/locker-room/">CREATION TYPES<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a></li>
-		<li id="menu-item-12657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12657"><a href="https://campusrec.unc.edu/locker-room/">INSTRUCTIONS<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a></li>
-	</ul>
-	</li>
-	<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-54"><a href="https://campusrec.unc.edu/facilities/">RESOURCES<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a>
-	<ul class="sub-menu">
-		<li id="menu-item-512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="https://campusrec.unc.edu/facilities/hours/">EXTRA INFO<button class="sub-toggle"><span class="open">+</span><span class="close">-</span></button></a></li>
-	</li>
-	</ul>
-	</li>
-				</div>
-			</nav>
-			<div class="nav-bottom">
-				<form action="https://campusrec.unc.edu" id="nav-search">
-					<input type="search" name="s" placeholder="Search" required="">
-					<button type="submit" class="icon-search"></button>
-				</form>
-			</div>
+	<header id="header">
+	<div class="container">
+	<div id="toggle-wrap">
+	<div class="nav-toggle"><div></div></div>
+	</div>
+	</div>
+</head>
+
+<nav>
+	<div class="dropdown" class="icon">
+		<button onclick="myFunction()" class="dropbtn">FLOWERS <i style='font-size:24px' class='fas'>&#8964;</i></button>
+		<div id="myDropdown" class="dropdown-content">
+		<a class="dropdown-item" href="flowers-flower-types/index.html"> Flower Types</a>
 		</div>
+	</div>
 
-		<img src="images/flower2.jpg" width="710" height="543.43">
+	<div class="dropdown" class="icon">
+		<button onclick="myFunction()" class="dropbtn">CREATIONS <i style='font-size:24px' class='fas'>&#8964;</i></button>
+		<div id="myDropdown" class="dropdown-content">
+		<a class="dropdown-item" href="creations-creation-types/index.html"> Creation Types</a>
+		<a class="dropdown-item" href="creations-instructions/index.html"> Instructions</a>
+		</div>
+	</div>
 
-		<h2>Introduction</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<h2>Historical Methods</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<img src="images/flower2.jpg" width="503" height="449">
+	<div class="dropdown" class="icon">
+		<button onclick="myFunction()" class="dropbtn">RESOURCES <i style='font-size:24px' class='fas'>&#8964;</i></button>
+		<div id="myDropdown" class="dropdown-content">
+		<a class="dropdown-item" href="resources-extra-info/index.html"> Extra Info</a>
+		<a class="dropdown-item" href="resources-accessibility/index.html"> Accessibility</a>
+		</div>
+	</div>
+</nav>
 
-		<h2>Paper</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<img src="images/flower2.jpg" width="503" height="449">
+<header>
+	<div></div>
+	<div class="text-container">
+	<div class="container"></div>
+	<h1>FLOWER CREATION</h1></div>
+	<div></div>
+</header>
 
-		<h2>Fabric</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<img src="images/flower2.jpg" width="503" height="449">
-
-		<h2>Porcelain</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<img src="images/flower2.jpg" width="503" height="449">
-
-		<h2>Rangoli</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-		
-		<img src="images/flower2.jpg" width="503" height="449">
-
-		<h2>Wax</h2>
-		<b1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b1>
-
-	<footer>
-		<h3>Keep Exploring!</h3>
-		<b2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b2>
-	</footer>
-
-	<buttons>
-		<div><a href="flowers-flower-types/index.html">Check out Flower Types!</a></div>
-		<div><a href="resources-extra-info/index.html">Check out Inspo!</a></div>
-		<div><a href="creations-instructions/index.html">Check out Instructions!</a></div>
-	</buttons>
-
-	<buttons>
-		<div><a href="index.html">Homepage</a></div>
-		<div><a href="creations-creation-types/index.html">Creations</a></div>
-		<div><a href="flowers-flower-types/index.html">Flowers</a></div>
-		<div><a href="resources-extra-info/index.html">Resources</a></div>
-	</buttons>
-		
+<body>
+	
 </body>
+	<section>
+		<h2>Introduction</h2>
+		<div></div>
+		<p>This website doubles as an 
+		archive and instructional for flower creation! I chose to 
+		create this wesbite so that it will be easier to navigate 
+		the idea of making your own flowers. Many people struggle 
+		to get started or don't know what to do, which is why I 
+		have included different pages filled with useful information 
+		for anyone to use! Learn about the history of your favorite 
+		flowers, get inspired and make your own flowers now!</p>
+	</section>
+
+		<div></div>
+	
+	<section>
+		<h2>Historical Methods</h2>
+		<div></div>
+		<p>Before heading over to the other pages, 
+		take a look at the different ways that flowers used to be created. I 
+		will be showing a few examples in which were popular many years ago, 
+		some still being used as a method to create unique flowers in today's 
+		society! Different countries used a variety of methods such as paper, 
+		fabric or porcelain as they weren't able to collect or obtain the fanicer 
+		flowers made from gold or delicate stones. So, artificial flowers were 
+		made instead to accompany clothing, jewelry, or hair accessories which 
+		were cherished by many. In order to decorate houses, ordinary folk settled 
+		with cheaper materials that were as close to the actual feel and look of 
+		flowers as the higher class used more costly items.</p>
+	</section>
+
+	<figure>
+		<h2>Paper</h2>
+		<div></div>
+		<img src="images/paperflowers.jpg" alt="Different types of flowers made with paper material" style="width:100%">
+		<figcaption>Work in progress..</figcaption>
+	</figure>
+
+	<figure>
+		<h2>Fabric</h2>
+		<div></div>
+		<img src="images/fabricflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
+		<figcaption>Work in progress..</figcaption>
+	</figure>
+	
+	<figure>
+		<h2>Porcelain</h2>
+		<div></div>
+		<img src="images/porcelainflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
+		<figcaption>Work in progress..</figcaption>
+	</figure>
+
+	<figure>
+		<h2>Rangoli</h2>
+		<div></div>
+		<img src="images/rangoliflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
+		<figcaption>Work in progress..</figcaption>
+	</figure>
+</body>
+
+<div></div>
+
+<button back-to-top>
+	<div class="fixed">
+	<a href="#top">Back to top ^ </a>
+	</div>
+</button back-to-top>
+
+<div></div>
+
+<footer>
+	<h3>Keep Exploring!</h3>
+	<p>Work in progress..</p>
+	<div></div>
+	<link><a href="index.html">Homepage</a></link>
+	<link><a href="creations-creation-types/index.html">Creations</a></link>
+	<link><a href="flowers-flower-types/index.html">Flowers</a></link>
+	<link><a href="resources-extra-info/index.html">Resources</a></link>
+	<link><a href="resources-accessibility/index.html">Accessibility</a></link>
+</footer>
+
 </html>
