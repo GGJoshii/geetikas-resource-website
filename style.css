@@ -139,6 +139,9 @@ figcaption {
       }   
   }
 
+.parent {position: sticky; margin: 0 0 100px; padding: 50px; padding-left: 100px; min-height: 50px;}
+.parent .sticky {position: sticky; left: 50px; width: 100px;}
+
 p {
     font-size: 20px;
     text-align: left;
