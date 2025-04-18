@@ -121,6 +121,14 @@ figcaption {
     align-items: center;
     margin: auto;
   }
+
+  /* figure container */
+  .figure-container {
+    margin: auto;
+    vertical-align: middle;
+      max-width: 1000px;
+    position: relative;
+  }
   
   .background-image {
     width: 150px;
