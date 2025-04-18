@@ -156,14 +156,14 @@ p {
 }
 
 footer a {
-  font-family: Brandon Grotesque;
+  font-family: Axial cut;
   color: #FBFF70;
   font-size: 20px;
   align-items: left;
 }
 
 body {
-    font-family: Brandon Grotesque;
+    font-family: Axial cut;
     font-size: 20px;
     background-color: #DFC5E8;
     text-align: left;
@@ -172,7 +172,7 @@ body {
 header {
 background-color: #DFC5E8;
 padding: 12px, 0, 12px;
-font-family: Brandon Grotesque;
+font-family: Axial cut;
 font-size: 20px;
 text-align: center;
 }
@@ -198,7 +198,7 @@ button {
 
 button back-to-top {
   text-align: right;
-  font-family: Brandon Grotesque;
+  font-family: Axial cut;
   color: #3F0257;
   border-radius: 40px;
   font-size: 20px;
@@ -207,7 +207,7 @@ button back-to-top {
 
 footer {
     text-align: left;
-    font-family: Brandon Grotesque;
+    font-family: Axial cut;
     font-size: 20px;
     margin: 0;
     padding: 12px, 0, 12px;
