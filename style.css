@@ -66,19 +66,6 @@ figcaption {
     color: #3F0257;
   }
 
-  /* Style the search box inside the navigation bar */
-.topnav input[type=text2] {
-  float: right;
-  padding: 4px;
-  border-radius: 20px;
-  margin: auto;
-  font-size: 20px;
-  font-family: Axial cut;
-  background-color: #3F0257;
-  border-color: #DFC5E8;
-  color: #DFC5E8;
-}
-
   .topnav a {
     float: center;
     display: block;
@@ -202,7 +189,7 @@ button {
     align-items: right;
 }
 
-button back-to-top a {
+button back-to-top {
   text-align: center;
   font-family: Brandon Grotesque;
   color: #3F0257;
