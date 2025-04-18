@@ -86,9 +86,9 @@
 	  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
 	  Your browser does not support HTML video.
 	</video>
-  </div> 
+</div> 
 
-  <div style="text-align:center"> 
+<div style="text-align:center"> 
 	<button onclick="playPause()">Play/Pause</button> 
 	<button onclick="makeBig()">Big</button>
 	<button onclick="makeSmall()">Small</button>
@@ -99,9 +99,9 @@
 	  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
 	  Your browser does not support HTML video.
 	</video>
-  </div> 
+</div> 
 
-  <div style="text-align:center"> 
+<div style="text-align:center"> 
 	<button onclick="playPause()">Play/Pause</button> 
 	<button onclick="makeBig()">Big</button>
 	<button onclick="makeSmall()">Small</button>
@@ -112,11 +112,55 @@
 	  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
 	  Your browser does not support HTML video.
 	</video>
-  </div> 
+</div> 
 
-  <script> 
+<script> 
 	var myVideo = document.getElementById("video1"); 
+	
+	function playPause() { 
+	  if (myVideo.paused) 
+		myVideo.play(); 
+	  else 
+		myVideo.pause(); 
+	} 
+	
+	function makeBig() { 
+		myVideo.width = 560; 
+	} 
+	
+	function makeSmall() { 
+		myVideo.width = 320; 
+	} 
+	
+	function makeNormal() { 
+		myVideo.width = 420; 
+	} 
+</script> 
+
+<script> 
 	var myVideo = document.getElementById("video2"); 
+	
+	function playPause() { 
+	  if (myVideo.paused) 
+		myVideo.play(); 
+	  else 
+		myVideo.pause(); 
+	} 
+	
+	function makeBig() { 
+		myVideo.width = 560; 
+	} 
+	
+	function makeSmall() { 
+		myVideo.width = 320; 
+	} 
+	
+	function makeNormal() { 
+		myVideo.width = 420; 
+	} 
+</script>
+
+<script> 
 	var myVideo = document.getElementById("video3"); 
 	
 	function playPause() { 
@@ -137,7 +181,7 @@
 	function makeNormal() { 
 		myVideo.width = 420; 
 	} 
-	</script> 
+</script>
 	
 <body>
 	<div class="section-container"></div>
