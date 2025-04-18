@@ -82,7 +82,7 @@ h4 {
 
   .section-container{
     margin: 0;
-    display: flex;
+    display: inline-flex;
     height: 70vh;
     width: 70vw;
     font-size: 18px;
