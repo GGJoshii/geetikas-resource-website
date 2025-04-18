@@ -204,13 +204,13 @@ button {
     align-items: right;
 }
 
-button back-to-top {
+.footerbutton {
   text-align: right;
   font-family: Axial cut;
   color: #3F0257;
   border-radius: 40px;
   font-size: 20px;
-  align-items: right;
+  display: inline;
 }
 
 footer {
