@@ -44,6 +44,13 @@ image {
   align-items: center;
 }
 
+caption {
+  display: inline-block;
+  font-family: Brandon Grotesque;
+  text-align: center;
+  font-size: 18px;
+}
+
 .logo {
   align-items: left;
 }
