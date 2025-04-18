@@ -11,13 +11,12 @@ h1 {
 }
 
 nav {
-  margin: 0;
+  margin-top: 10px;
   padding: 12px 14px;
-  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2px;
-  display: inline-flex;
   unicode-bidi: isolate;
   background-color: #3F0257;
   border: #FBFF70;
