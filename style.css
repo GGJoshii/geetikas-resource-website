@@ -11,12 +11,12 @@ h1 {
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 12px, 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1px;
+  gap: 0px;
   unicode-bidi: isolate;
   background-color: #3F0257;
   border: #FBFF70;
@@ -55,6 +55,9 @@ h4 {
     margin-right: 14px;
     font-size: 18px;
     font-family: Axial cut;
+    background-color: #DFC5E8;
+    border-color: #3F0257;
+    color: #3F0257;
   }
 
 .text-container {
