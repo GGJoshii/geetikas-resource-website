@@ -156,6 +156,14 @@ b {
     font-size: 18px;
 }
 
+link {
+  text-align: center;
+  font-family: Brandon Grotesque;
+  color: #FBFF70;
+  font-size: 18px;
+  align-items: left;
+}
+
 body {
     font-family: Brandon Grotesque;
     font-size: 18px;
@@ -189,7 +197,7 @@ button {
     font-family: Axial cut;
 }
 
-.button-back-to-top {
+button back-to-top {
   text-align: center;
   font-family: Brandon Grotesque;
   color: #3F0257;
