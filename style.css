@@ -104,28 +104,20 @@ figcaption {
     font-family: Axial cut;
   }
 
-  .section-container{
+  section h2 {
     margin: auto;
-    display: inline-flex;
-    justify-content: space-between;
     align-items: center;
-    height: 70vh;
-    width: 70vw;
-    font-size: 22px;
+    font-size: 35px;
     text-align: left;
     font-family: Axial cut;
   }
 
-  .section-container h2{
+  section p {
     margin: auto;
-    display: inline-flex;
-    justify-content: space-between;
     align-items: center;
-    height: 70vh;
-    width: 70vw;
-    font-size: 35px;
+    font-size: 18px;
     text-align: left;
-    font-family: Axial cut;
+    font-family: Brandon Grotesque;
   }
   
   .background-image {
