@@ -83,7 +83,6 @@ h4 {
   .section-container{
     margin: auto;
     display: inline-flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 70vh;
