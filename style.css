@@ -5,7 +5,7 @@ h1 {
       text-align: center;
       font-family: Axial cut;
       color: #3F0257;
-      display: block;
+      display: inline-flex;
       font-size: 120px;
       unicode-bidi: isolate;
 }
@@ -13,7 +13,7 @@ h1 {
 nav {
   margin-top: 10px;
   padding: 12px, 0, 12px;
-  display: block;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: none;
@@ -190,7 +190,7 @@ button {
 }
 
 button back-to-top {
-  text-align: center;
+  text-align: right;
   font-family: Brandon Grotesque;
   color: #3F0257;
   border-radius: 40px;
