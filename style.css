@@ -40,7 +40,7 @@ h3 {
 
 image {
   width: 100%;
-  display: block;
+  display: inline-block;
   align-items: center;
 }
 
@@ -136,12 +136,6 @@ p {
     font-size: 18px;
     text-align: left;
     font-family: Brandon Grotesque;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
 b {
