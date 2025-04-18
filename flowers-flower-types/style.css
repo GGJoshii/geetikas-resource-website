@@ -92,7 +92,7 @@ figcaption {
     margin: 0;
     font-size: 130px;
     color: rgba(225,225,225, .01);
-    background-image: url(images/flowersbackground.jpg);
+    background-image: url(/images/flowersbackground.jpg);
     background-repeat: repeat;
     background-clip: text;
     animation: animate 8s ease-in-out infinite;
