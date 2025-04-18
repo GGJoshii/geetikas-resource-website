@@ -42,7 +42,7 @@ h4 {
   color: #3F0257;
   text-align: left;
   font-size: 20px;
-  display: inline-flex;  
+  display: flex;  
   font-family: Brandon Grotesque;
 }
 
