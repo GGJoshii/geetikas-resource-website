@@ -5,7 +5,7 @@ h1 {
       text-align: center;
       font-family: Axial cut;
       color: #3F0257;
-      display: inline-flex;
+      display: flex;
       font-size: 120px;
       unicode-bidi: isolate;
 }
@@ -13,7 +13,7 @@ h1 {
 nav {
   margin-top: 10px;
   padding: 12px, 0, 12px;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: none;
@@ -69,7 +69,7 @@ figcaption {
   .topnav a {
     float: center;
     display: block;
-    color: #FBFF70;
+    color: #3F0257;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -180,7 +180,7 @@ head {
 }
 
 button {
-    text-align: center;
+    text-align: right;
     border-color: #3F0257;
     background-color: #DFC5E8;
     color: #3F0257;
