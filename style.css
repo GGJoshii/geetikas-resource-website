@@ -11,7 +11,7 @@ h1 {
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 12px, 0, 12px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -25,7 +25,7 @@ nav {
 h2 {
     color: #000000;
     text-align: left;
-    font-size: 35px;
+    font-size: 45px;
     position: left;
     font-family: Axial cut;
 }
@@ -33,7 +33,7 @@ h2 {
 h3 {
   color: #FFFFFF;
   text-align: left;
-  font-size: 35px;
+  font-size: 45px;
   position: left;
   font-family: Axial cut;
 }
@@ -45,7 +45,7 @@ figure {
 figcaption {
   color: #000000;
   font-family: Brandon Grotesque;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -58,9 +58,8 @@ figcaption {
     float: right;
     padding: 4px;
     border-radius: 20px;
-    margin-top: 6px;
-    margin-right: 14px;
-    font-size: 18px;
+    margin: auto;
+    font-size: 20px;
     font-family: Axial cut;
     background-color: #DFC5E8;
     border-color: #3F0257;
@@ -74,7 +73,7 @@ figcaption {
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .topnav .icon {
@@ -114,8 +113,8 @@ figcaption {
 
   section p {
     margin: auto;
-    align-items: center;
-    font-size: 18px;
+    align-items: left;
+    font-size: 20px;
     text-align: left;
     font-family: Brandon Grotesque;
   }
@@ -144,7 +143,7 @@ figcaption {
 .parent .sticky {position: sticky; left: 50px; width: 100px;}
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     font-family: Brandon Grotesque;
 }
@@ -153,19 +152,19 @@ b {
     font-family: Brandon Grotesque;
     text-align: center;
     vertical-align: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a {
   font-family: Brandon Grotesque;
   color: #FBFF70;
-  font-size: 18px;
+  font-size: 20px;
   align-items: left;
 }
 
 body {
     font-family: Brandon Grotesque;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #DFC5E8;
     text-align: left;
 }
@@ -174,7 +173,7 @@ header {
 background-color: #DFC5E8;
 padding: 12px, 0, 12px;
 font-family: Brandon Grotesque;
-font-size: 18px;
+font-size: 20px;
 text-align: center;
 }
 
@@ -202,14 +201,14 @@ button back-to-top {
   font-family: Brandon Grotesque;
   color: #3F0257;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 20px;
   align-items: right;
 }
 
 footer {
     text-align: left;
     font-family: Brandon Grotesque;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
     padding: 12px, 0, 12px;
     overflow: hidden;
@@ -229,7 +228,7 @@ html {
     color: #FBFF70;
     position: relative;
     padding: 12px;
-    font-size: 18px;
+    font-size: 20px;
     border-color: #FBFF70;
     cursor: pointer;
     align-items: center;
@@ -257,7 +256,7 @@ html {
     position: relative;
     background-color: #DFC5E8;
     padding: 12px;
-    font-size: 18px;
+    font-size: 20px;
     box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.2);
     z-index: 1;
     align-items: vertical;
@@ -273,7 +272,7 @@ html {
     text-align: center;
     text-decoration: none;
     font-family: Axial cut;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
