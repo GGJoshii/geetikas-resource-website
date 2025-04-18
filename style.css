@@ -197,12 +197,13 @@ button {
     font-family: Axial cut;
 }
 
-a style {
-  text-align: left;
+.button-back-to-top {
+  text-align: center;
   font-family: Brandon Grotesque;
   color: #3F0257;
   border-radius: 40px;
   font-size: 18px;
+  align-items: right;
 }
 
 footer {
