@@ -90,8 +90,8 @@ figcaption {
 
 .text-container {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 70vh;
     width: 70vw;
   }
@@ -104,10 +104,10 @@ figcaption {
     background-repeat: repeat;
     background-clip: text;
     animation: animate 8s ease-in-out infinite;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: 900;
-    justify-content: center;
+    justify-content: left;
     font-family: Axial cut;
   }
 
