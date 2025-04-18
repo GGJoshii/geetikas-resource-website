@@ -12,7 +12,7 @@ h1 {
 
 nav {
   margin-top: 0px;
-  padding: 12px, 0;
+  padding: 12px, 0, 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,6 +36,12 @@ h3 {
   font-size: 35px;
   position: left;
   font-family: Axial cut;
+}
+
+image {
+  width: 100%;
+  display: block;
+  align-items: center;
 }
 
 /* Style the search box inside the navigation bar */
