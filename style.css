@@ -147,10 +147,7 @@ head {
 }
 
 .topnav {
-    text-align: right;
-    border-color: #3F0257;
-    background-color: #DFC5E8;
-    color: #3F0257;
+    text-align: left;
 }
 
 button {
