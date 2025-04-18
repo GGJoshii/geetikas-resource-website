@@ -84,8 +84,8 @@ figcaption {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    width: 70vw;
+    margin: auto;
+    width: 100%;
   }
   
   .text-container h1{
