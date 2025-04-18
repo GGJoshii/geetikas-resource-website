@@ -11,9 +11,9 @@ h1 {
 }
 
 nav {
-  margin-top: 0px;
+  margin-top: 10px;
   padding: 12px, 0, 12px;
-  display: inline-block;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: none;
@@ -46,7 +46,7 @@ figcaption {
   color: #000000;
   font-family: Brandon Grotesque;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
