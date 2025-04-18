@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="sketch.js">
 			<logo>
 				<div id="logo">
-				<img src="/images/logosquare.png" alt="My Logo" width="75" height="75">
+				<img src="images/logosquare.png" alt="My Logo" width="75" height="75">
 				</div>
 			</logo>
 		<div id="nav-wrap">
@@ -32,23 +32,23 @@
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">FLOWERS <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/flowers-flower-types/index.html"> Flower Types</a>
+		<a class="dropdown-item" href="index.html"> Flower Types</a>
 		</div>
 	</div>
 
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">CREATIONS <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/creations-creation-types/index.html"> Creation Types</a>
-		<a class="dropdown-item" href="/creations-instructions/index.html"> Instructions</a>
+		<a class="dropdown-item" href="creations-creation-types/index.html"> Creation Types</a>
+		<a class="dropdown-item" href="creations-instructions/index.html"> Instructions</a>
 		</div>
 	</div>
 
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">RESOURCES <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/resources-extra-info/index.html"> Extra Info</a>
-		<a class="dropdown-item" href="/resources-accessibility/index.html"> Accessibility</a>
+		<a class="dropdown-item" href="resources-extra-info/index.html"> Extra Info</a>
+		<a class="dropdown-item" href="resources-accessibility/index.html"> Accessibility</a>
 		</div>
 	</div>
 </nav>
@@ -62,67 +62,223 @@
 </header>
 
 <body>
+	<div class="section-container"></div>
 	<section>
-		<h2>Introduction</h2>
+		<h2>Did You Know?</h2>
 		<div></div>
-		<p>This website doubles as an 
-		archive and instructional for flower creation! I chose to 
-		create this wesbite so that it will be easier to navigate 
-		the idea of making your own flowers. Many people struggle 
-		to get started or don't know what to do, which is why I 
-		have included different pages filled with useful information 
-		for anyone to use! Learn about the history of your favorite 
-		flowers, get inspired and make your own flowers now!</p>
+		<p style="text-align: justify;">Work in progress...</p>
 	</section>
-
-		<div></div>
+</body>
 	
+<div></div>
+
+<style>
+	* {box-sizing: border-box;}
+	body {font-family: Brandon Grotesque;}
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+	
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 500px;
+	  position: relative;
+	  margin: auto;
+	}
+	
+	/* Caption text */
+	.text {
+	  color: #000000;
+	  font-family: Brandon Grotesque;
+	  font-size: 20px;
+	  padding: 8px 12px;
+	  position: relative;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+	
+	/* Number text (1/13 etc) */
+	.numbertext {
+	  color: #000000;
+	  font-family: Brandon Grotesque;
+	  font-size: 20px;
+	  padding: 8px 12px;
+	  position: relative;
+	  top: 0;
+	}
+	
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 10px;
+	  width: 10px;
+	  margin: 0 2px;
+	  background-color: #DFC5E8;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 3s ease;
+	}
+	
+	.active {
+	  background-color: #3F0257;
+	}
+	
+	/* Fading animation */
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 10s;
+	}
+	
+	@keyframes fade {
+	  from {opacity: 1} 
+	  to {opacity: 5}
+	}
+	
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 20px}
+	}
+	</style>
+	</head>
+	<body>
+	
+	<h2>Annuals, Perennials & Biennials</h2>
+	<p>Work in progress...</p>
+	
+	<div class="slideshow-container">
+	
+	<div class="mySlides fade">
+	  	<div class="numbertext">1 / 13</div>
+	  	<img src="images/flowerannual.jpg" alt="Different types of annual flowers" style="width:100%">
+	  	<div class="text">Work in progress..</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 13</div>
+		<img src="images/flowerannual2.jpg" alt="Different types of annual flowers" style="width:100%">
+		<div class="text">Work in progress 2..</div>
+	</div>
+
+	<div class="mySlides fade">
+	  	<div class="numbertext">3 / 13</div>
+		<img src="images/flowerannual3.jpg" alt="Different types of annual flowers" style="width:100%">
+	  	<div class="text">Work in progress 3..</div>
+	</div>
+
+	<div class="mySlides fade">
+	  	<div class="numbertext">4 / 13</div>
+	  	<img src="images/flowerannual4.jpg" alt="Different types of annual flowers" style="width:100%">
+	  	<div class="text">Work in progress 4..</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 13</div>
+		<img src="images/flowerperennial.jpg" alt="Different types of perennial flowers" style="width:100%">
+		<div class="text">Work in progress..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">6 / 13</div>
+		<img src="images/flowerperennial2.jpg" alt="Different types of perennial flowers" style="width:100%">
+		<div class="text">Work in progress 2..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">7 / 13</div>
+		<img src="images/flowerperennial3.jpg" alt="Different types of perennial flowers" style="width:100%">
+		<div class="text">Work in progress 3..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">8 / 13</div>
+		<img src="images/flowerperennial4.jpg" alt="Different types of perennial flowers" style="width:100%">
+		<div class="text">Work in progress 4..</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">9 / 13</div>
+		<img src="images/flowerperennial5.jpg" alt="Different types of perennial flowers" style="width:100%">
+		<div class="text">Work in progress..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">10 / 13</div>
+		<img src="images/flowerbiennial.jpg" alt="Different types of biennial flowers" style="width:100%">
+		<div class="text">Work in progress 2..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">11 / 13</div>
+		<img src="images/flowerbiennial2.jpg" alt="Different types of biennial flowers" style="width:100%">
+		<div class="text">Work in progress 3..</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">12 / 13</div>
+		<img src="images/flowerbiennial3.jpg" alt="Different types of biennial flowers" style="width:100%">
+		<div class="text">Work in progress 4..</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">13 / 13</div>
+		<img src="images/flowerbiennial4.jpg" alt="Different types of biennial flowers" style="width:100%">
+		<div class="text">Work in progress 4..</div>
+	</div>
+
+	</div>
+	<br>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span>
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span>
+	  <span class="dot"></span>  
+	</div>
+	
+	<script>
+	let slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+	</script>
+
+<body>
+	<div class="section-container"></div>
 	<section>
-		<h2>Historical Methods</h2>
+		<h2>Understanding Flowers</h2>
 		<div></div>
-		<p>Before heading over to the other pages, 
-		take a look at the different ways that flowers used to be created. I 
-		will be showing a few examples in which were popular many years ago, 
-		some still being used as a method to create unique flowers in today's 
-		society! Different countries used a variety of methods such as paper, 
-		fabric or porcelain as they weren't able to collect or obtain the fanicer 
-		flowers made from gold or delicate stones. So, artificial flowers were 
-		made instead to accompany clothing, jewelry, or hair accessories which 
-		were cherished by many. In order to decorate houses, ordinary folk settled 
-		with cheaper materials that were as close to the actual feel and look of 
-		flowers as the higher class used more costly items.</p>
+		<p style="text-align: justify;">Work in progress...</p>
 	</section>
-
-	<figure>
-		<h2>Paper</h2>
-		<div></div>
-		<img src="/images/paperflowers.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
-
-	<figure>
-		<h2>Fabric</h2>
-		<div></div>
-		<img src="/images/fabricflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
-	
-	<figure>
-		<h2>Porcelain</h2>
-		<div></div>
-		<img src="/images/porcelainflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
-
-	<figure>
-		<h2>Rangoli</h2>
-		<div></div>
-		<img src="/images/rangoliflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
 </body>
 
-<div></div>
+<footerlinks>
+	<h4><a href="homepage/index.html">Check out Historical Methods! </a></h4> 
+	<h4><a href="resources-extra-info/index.html">Check out Extra Info! </a></h4> 
+	<h4><a href="creations-creation-types/index.html">Check out Creation Types! </a></h4> 
+</footerlinks>
 
 <button back-to-top>
 	<div class="fixed">
@@ -136,11 +292,11 @@
 	<h3>Keep Exploring!</h3>
 	<p>Work in progress..</p>
 	<div></div>
-	<link><a href="/index.html">Homepage</a></link>
-	<link><a href="/creations-creation-types/index.html">Creations</a></link>
-	<link><a href="/flowers-flower-types/index.html">Flowers</a></link>
-	<link><a href="/resources-extra-info/index.html">Resources</a></link>
-	<link><a href="/resources-accessibility/index.html">Accessibility</a></link>
+	<link><a href="homepage/index.html">Homepage</a></link>
+	<link><a href="creations-creation-types/index.html">Creations</a></link>
+	<link><a href="index.html">Flowers</a></link>
+	<link><a href="resources-extra-info/index.html">Resources</a></link>
+	<link><a href="resources-accessibility/index.html">Accessibility</a></link>
 </footer>
 
 </html>
