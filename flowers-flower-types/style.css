@@ -118,6 +118,13 @@ figcaption {
     text-align: left;
     font-family: Brandon Grotesque;
   }
+
+  .section-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
   
   .background-image {
     width: 150px;
