@@ -24,7 +24,7 @@ nav {
 
 h2 {
     color: #000000;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     position: left;
     font-family: Axial cut;
@@ -106,7 +106,7 @@ figcaption {
 
   section h2 {
     margin: auto;
-    align-items: center;
+    align-items: left;
     font-size: 35px;
     text-align: left;
     font-family: Axial cut;
@@ -156,8 +156,7 @@ b {
     font-size: 18px;
 }
 
-link {
-  text-align: center;
+a {
   font-family: Brandon Grotesque;
   color: #FBFF70;
   font-size: 18px;
@@ -195,6 +194,7 @@ button {
     color: #3F0257;
     font-size: 20px;
     font-family: Axial cut;
+    align-items: right;
 }
 
 button back-to-top {
