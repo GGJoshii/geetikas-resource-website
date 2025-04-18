@@ -2,7 +2,7 @@
 @font-face { font-family: Brandon Grotesque; src: url('fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf');} 
 
 h1 {
-      text-align: left;
+      text-align: center;
       font-family: Axial cut;
       color: #3F0257;
       display: block;
@@ -90,8 +90,8 @@ figcaption {
 
 .text-container {
     display: inline-flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     height: 70vh;
     width: 70vw;
   }
@@ -104,10 +104,10 @@ figcaption {
     background-repeat: repeat;
     background-clip: text;
     animation: animate 8s ease-in-out infinite;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-    justify-content: left;
+    justify-content: center;
     font-family: Axial cut;
   }
 
