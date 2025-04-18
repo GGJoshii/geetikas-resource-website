@@ -228,10 +228,13 @@ html {
   
   /* Links inside the dropdown */
   .dropdown-content a {
+    float: none;
+    display: block;
     position: relative;
     padding: 12px;
     color: #3F0257;
-    align-items: center;
+    text-align: center;
+    text-decoration: none;
     font-family: Axial cut;
     font-size: 18px;
   }
