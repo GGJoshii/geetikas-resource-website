@@ -209,12 +209,13 @@ footer {
     text-align: left;
     font-family: Brandon Grotesque;
     font-size: 20px;
-    margin: 0;
+    margin: 0 auto;
     padding: 12px, 0, 12px;
     overflow: hidden;
     display: block;
     background-color: #3F0257;
     color: #FFFFFF;
+    position: fixed;
 }
 
 html {
