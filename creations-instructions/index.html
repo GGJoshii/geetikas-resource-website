@@ -83,7 +83,7 @@
 	<button onclick="makeSmall()">Small</button>
 	<button onclick="makeNormal()">Normal</button>
 	<br><br>
-	<video id="video1" width="420">
+	<video id="video" width="420">
 	  <source src="video/fabricflowervideoreduced.mp4" type="video/mp4">
 	  <source src="video/fabricflowervideoreduced.ogg" type="video/ogg">
 	  <p>Your browser does not support HTML video.</p>
@@ -99,7 +99,7 @@
 	<button onclick="makeSmall()">Small</button>
 	<button onclick="makeNormal()">Normal</button>
 	<br><br>
-	<video id="video2" width="420">
+	<video id="video" width="420">
 	  <source src="video/clayflowervideoreduced.mp4" type="video/mp4">
 	  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
 	  <p>Your browser does not support HTML video.</p>	
@@ -115,7 +115,7 @@
 	<button onclick="makeSmall()">Small</button>
 	<button onclick="makeNormal()">Normal</button>
 	<br><br>
-	<video id="video3" width="420">
+	<video id="video" width="420">
 	  <source src="video/legoflowervideoreduced.mp4" type="video/mp4">
 	  <source src="video/legoflowervideoreduced.ogg" type="video/ogg">
 	  <p>Your browser does not support HTML video.</p>
@@ -124,7 +124,7 @@
 </video>
 
 <script> 
-	var myVideo = document.getElementById("video1"); 	
+	var myVideo1 = document.getElementById("video1"); 	
 	function playPause() { 
 	  if (myVideo.paused) 
 		myVideo.play(); 
@@ -136,20 +136,20 @@
 
 	var myVideo2 = document.getElementById("video2"); 
 	function playPause() { 
-	  if (myVideo2.paused) 
-		myVideo2.play(); 
+	  if (myVideo.paused) 
+		myVideo.play(); 
 	  else 
-		myVideo2.pause(); 
+		myVideo.pause(); 
 	} 
 
 	<div></div>
 
 	var myVideo3 = document.getElementById("video3"); 
 	function playPause() { 
-	  if (myVideo3.paused) 
-		myVideo3.play(); 
+	  if (myVideo.paused) 
+		myVideo.play(); 
 	  else 
-		myVideo3.pause(); 
+		myVideo.pause(); 
 	} 
 	
 	function makeBig() { 
