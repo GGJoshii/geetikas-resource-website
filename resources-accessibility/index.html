@@ -10,13 +10,13 @@
 	</div>
 
 <head>
-		<title>Flowers</title>
+		<title>Accessibility</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="p5.min.js">
 		<link rel="stylesheet" href="sketch.js">
 			<logo>
 				<div id="logo">
-				<img src="/images/logosquare.png" alt="My Logo" width="75" height="75">
+				<img src="images/logosquare.png" alt="My Logo" width="75" height="75">
 				</div>
 			</logo>
 		<div id="nav-wrap">
@@ -32,23 +32,23 @@
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">FLOWERS <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/flowers-flower-types/index.html"> Flower Types</a>
+		<a class="dropdown-item" href="flowers-flower-types/index.html"> Flower Types</a>
 		</div>
 	</div>
 
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">CREATIONS <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/creations-creation-types/index.html"> Creation Types</a>
-		<a class="dropdown-item" href="/creations-instructions/index.html"> Instructions</a>
+		<a class="dropdown-item" href="creations-creation-types/index.html"> Creation Types</a>
+		<a class="dropdown-item" href="creations-instructions/index.html"> Instructions</a>
 		</div>
 	</div>
 
 	<div class="dropdown" class="icon">
 		<button onclick="myFunction()" class="dropbtn">RESOURCES <i style='font-size:24px' class='fas'>&#8964;</i></button>
 		<div id="myDropdown" class="dropdown-content">
-		<a class="dropdown-item" href="/resources-extra-info/index.html"> Extra Info</a>
-		<a class="dropdown-item" href="/resources-accessibility/index.html"> Accessibility</a>
+		<a class="dropdown-item" href="resources-extra-info/index.html"> Extra Info</a>
+		<a class="dropdown-item" href="resources-accessibility/index.html"> Accessibility</a>
 		</div>
 	</div>
 </nav>
@@ -57,70 +57,60 @@
 	<div></div>
 	<div class="text-container">
 	<div class="container"></div>
-	<h1>FLOWER TYPES</h1></div>
+	<h1>ACCESSIBILITY</h1></div>
 	<div></div>
 </header>
 
 <body>
+	<div class="section-container"></div>
 	<section>
 		<h2>Introduction</h2>
 		<div></div>
-		<p>This website doubles as an 
-		archive and instructional for flower creation! I chose to 
-		create this wesbite so that it will be easier to navigate 
-		the idea of making your own flowers. Many people struggle 
-		to get started or don't know what to do, which is why I 
-		have included different pages filled with useful information 
-		for anyone to use! Learn about the history of your favorite 
-		flowers, get inspired and make your own flowers now!</p>
+		<p style="text-align: justify;">The principle that everyone should be 
+			able to use the web equally, regardless of any disability, is as 
+			important today as it was twenty years ago. People who have limited 
+			use of their arms, people who cannot hear or see well and people who 
+			process information differently, should all be able to access and 
+			use web sites and apps. Web technologies have many built in features 
+			for accessibility, and we as web developers should know them so that 
+			we do not exclude any of our users. There is no precise starting point 
+			of the history of web accessibility.</p>
 	</section>
 
 		<div></div>
 	
+	<div class="section-container"></div>
 	<section>
-		<h2>Historical Methods</h2>
+		<h2>Semantic Elements</h2>
 		<div></div>
-		<p>Before heading over to the other pages, 
-		take a look at the different ways that flowers used to be created. I 
-		will be showing a few examples in which were popular many years ago, 
-		some still being used as a method to create unique flowers in today's 
-		society! Different countries used a variety of methods such as paper, 
-		fabric or porcelain as they weren't able to collect or obtain the fanicer 
-		flowers made from gold or delicate stones. So, artificial flowers were 
-		made instead to accompany clothing, jewelry, or hair accessories which 
-		were cherished by many. In order to decorate houses, ordinary folk settled 
-		with cheaper materials that were as close to the actual feel and look of 
-		flowers as the higher class used more costly items.</p>
+		<p style="text-align: justify;">I provide the user a good way to navigate and interact 
+			with my site. Semantics is about using the correct element in HTML. There are 
+			approximately 110 elements in HTML 5.</p>
 	</section>
 
-	<figure>
-		<h2>Paper</h2>
-		<div></div>
-		<img src="/images/paperflowers.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
+	<div></div>
 
-	<figure>
-		<h2>Fabric</h2>
+	<div class="section-container"></div>
+	<section>
+		<h2>Color Contrast</h2>
 		<div></div>
-		<img src="/images/fabricflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
+		<p style="text-align: justify;">I measured the contrast between text or graphics against 
+			the background color. This is called contrast ratio. A white text on a white background 
+			has a contrast ratio of 1. This is impossible to perceive. Black text on a white 
+			background has a contrast ratio of 21.</p>
+	</section>
+
+		<div></div>
 	
-	<figure>
-		<h2>Porcelain</h2>
+	<div class="section-container"></div>
+	<section>
+		<h2>Alt Text</h2>
 		<div></div>
-		<img src="/images/porcelainflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
-
-	<figure>
-		<h2>Rangoli</h2>
-		<div></div>
-		<img src="/images/rangoliflower.jpg" alt="Different types of flowers made with paper material" style="width:100%">
-		<figcaption>Work in progress..</figcaption>
-	</figure>
-</body>
+		<p style="text-align: justify;">The alternative text for an image is for users that for 
+			some reason cannot view it. The reason can be a slow connection, an error with the 
+			image file, or if the user uses a screen reader. The value of the alt attribute describes 
+			the image, or even better the intention of the image.</p>
+	</section>
 
 <div></div>
 
@@ -136,11 +126,11 @@
 	<h3>Keep Exploring!</h3>
 	<p>Work in progress..</p>
 	<div></div>
-	<link><a href="/index.html">Homepage</a></link>
-	<link><a href="/creations-creation-types/index.html">Creations</a></link>
-	<link><a href="/flowers-flower-types/index.html">Flowers</a></link>
-	<link><a href="/resources-extra-info/index.html">Resources</a></link>
-	<link><a href="/resources-accessibility/index.html">Accessibility</a></link>
+	<link><a href="index.html">Homepage</a></link>
+	<link><a href="creations-creation-types/index.html">Creations</a></link>
+	<link><a href="flowers-flower-types/index.html">Flowers</a></link>
+	<link><a href="resources-extra-info/index.html">Resources</a></link>
+	<link><a href="resources-accessibility/index.html">Accessibility</a></link>
 </footer>
 
 </html>
