@@ -72,78 +72,45 @@
 	
 <div></div>
 
-<h2>Try Yourself!</h2>
+<h2>Try it!</h2>
 	<p>Work in progress...</p>
 
-<div class="video-container"></div>
-<video>
-<div style="text-align: center"> 
-	<button onclick="playPause()">Play/Pause</button> 
-	<button onclick="makeBig()">Big</button>
-	<button onclick="makeSmall()">Small</button>
-	<button onclick="makeNormal()">Normal</button>
-	<br><br>
-	<video id="video" width="420">
-	  <source src="video/fabricflowervideoreduced.mp4" type="video/mp4">
-	  <source src="video/fabricflowervideoreduced.ogg" type="video/ogg">
-	  <p>Your browser does not support HTML video.</p>
-	</video>
-</div> 
-</video>
-
-<div class="video-container"></div>
-<video>
-<div style="text-align: center"> 
-	<button onclick="playPause()">Play/Pause</button> 
-	<button onclick="makeBig()">Big</button>
-	<button onclick="makeSmall()">Small</button>
-	<button onclick="makeNormal()">Normal</button>
-	<br><br>
-	<video id="video" width="420">
-	  <source src="video/clayflowervideoreduced.mp4" type="video/mp4">
-	  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
-	  <p>Your browser does not support HTML video.</p>	
-	</video>
-</div> 
-</video>
-
-<div class="video-container"></div>
-<video>
-<div style="text-align: center"> 
-	<button onclick="playPause()">Play/Pause</button> 
-	<button onclick="makeBig()">Big</button>
-	<button onclick="makeSmall()">Small</button>
-	<button onclick="makeNormal()">Normal</button>
-	<br><br>
-	<video id="video" width="420">
-	  <source src="video/legoflowervideoreduced.mp4" type="video/mp4">
-	  <source src="video/legoflowervideoreduced.ogg" type="video/ogg">
-	  <p>Your browser does not support HTML video.</p>
-	</video>
-</div> 
-</video>
-
-<script> 
-	var myVideo = document.getElementById("video1"); 	
-	function playPause() { 
-	  if (myVideo.paused) 
-		myVideo.play(); 
-	  else 
-		myVideo.pause(); 
-	} 
-	
-	function makeBig() { 
-		myVideo.width = 560; 
-	} 
-	
-	function makeSmall() { 
-		myVideo.width = 320; 
-	} 
-	
-	function makeNormal() { 
-		myVideo.width = 420; 
-	} 
-</script> 
+	<div style="text-align:center"> 
+		<button onclick="playPause()">Play/Pause</button> 
+		<button onclick="makeBig()">Big</button>
+		<button onclick="makeSmall()">Small</button>
+		<button onclick="makeNormal()">Normal</button>
+		<br><br>
+		<video id="video1" width="420">
+		  <source src="video/fabricflowervideoreduced.mp4" type="video/mp4">
+		  <source src="video/fabricflowervideoreduced.ogg" type="video/ogg">
+		</video>
+	  </div> 
+	  
+	  <script> 
+	  var myVideo = document.getElementById("video1"); 
+	  
+	  function playPause() { 
+		if (myVideo.paused) 
+		  myVideo.play(); 
+		else 
+		  myVideo.pause(); 
+	  } 
+	  
+	  function makeBig() { 
+		  myVideo.width = 560; 
+	  } 
+	  
+	  function makeSmall() { 
+		  myVideo.width = 320; 
+	  } 
+	  
+	  function makeNormal() { 
+		  myVideo.width = 420; 
+	  } 
+	  </script> 
+	  
+	  <p>Work in progress...</p>
 	
 <body>
 	<div class="section-container"></div>

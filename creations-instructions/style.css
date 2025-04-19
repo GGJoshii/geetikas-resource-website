@@ -133,21 +133,6 @@ figcaption {
     align-items: center;
     margin: auto;
   }
-
-  .video-container {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-
-  .video p {
-    margin: auto;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-    font-family: Brandon Grotesque;
-  }
   
   .background-image {
     width: 150px;
