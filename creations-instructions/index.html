@@ -88,6 +88,7 @@
 	  </div> 
 	  
 	  <script> 
+	  
 	  var myVideo = document.getElementById("video1"); 
 	  
 	  function playPause() { 
@@ -110,7 +111,83 @@
 	  } 
 	  </script> 
 	  
-	  <p>Work in progress...</p>
+	  <p style="text-align: center;">in progress...</p>
+
+	  <div style="text-align:center"> 
+		<button onclick="playPause()">Play/Pause</button> 
+		<button onclick="makeBig()">Big</button>
+		<button onclick="makeSmall()">Small</button>
+		<button onclick="makeNormal()">Normal</button>
+		<br><br>
+		<video id="video2" width="420">
+		  <source src="video/clayflowervideoreduced.mp4" type="video/mp4">
+		  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
+		</video>
+	  </div> 
+	  
+	  <script> 
+	  
+	  var myVideo = document.getElementById("video2"); 
+	  
+	  function playPause() { 
+		if (myVideo.paused) 
+		  myVideo.play(); 
+		else 
+		  myVideo.pause(); 
+	  } 
+	  
+	  function makeBig() { 
+		  myVideo.width = 560; 
+	  } 
+	  
+	  function makeSmall() { 
+		  myVideo.width = 320; 
+	  } 
+	  
+	  function makeNormal() { 
+		  myVideo.width = 420; 
+	  } 
+	  </script> 
+	  
+	  <p style="text-align: center;">in progress...</p>
+
+	  <div style="text-align:center"> 
+		<button onclick="playPause()">Play/Pause</button> 
+		<button onclick="makeBig()">Big</button>
+		<button onclick="makeSmall()">Small</button>
+		<button onclick="makeNormal()">Normal</button>
+		<br><br>
+		<video id="video3" width="420">
+		  <source src="video/legoflowervideoreduced.mp4" type="video/mp4">
+		  <source src="video/legoflowervideoreduced.ogg" type="video/ogg">
+		</video>
+	  </div> 
+	  
+	  <script> 
+	  
+	  var myVideo = document.getElementById("video3"); 
+	  
+	  function playPause() { 
+		if (myVideo.paused) 
+		  myVideo.play(); 
+		else 
+		  myVideo.pause(); 
+	  } 
+	  
+	  function makeBig() { 
+		  myVideo.width = 560; 
+	  } 
+	  
+	  function makeSmall() { 
+		  myVideo.width = 320; 
+	  } 
+	  
+	  function makeNormal() { 
+		  myVideo.width = 420; 
+	  } 
+	  </script> 
+	  
+	  <p style="text-align: center;">in progress...</p>
 	
 <body>
 	<div class="section-container"></div>
