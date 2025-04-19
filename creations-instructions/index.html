@@ -75,13 +75,12 @@
 <h2>Try it!</h2>
 	<p>Work in progress...</p>
 
-	<div style="text-align:center"> 
-		<button onclick="playPause()">Play/Pause</button> 
+	<div style="text-align:center">
 		<button onclick="makeBig()">Big</button>
 		<button onclick="makeSmall()">Small</button>
 		<button onclick="makeNormal()">Normal</button>
 		<br><br>
-		<video id="video1" width="420">
+		<video id="video1" width="420" controls>
 		  <source src="video/fabricflowervideoreduced.mp4" type="video/mp4">
 		  <source src="video/fabricflowervideoreduced.ogg" type="video/ogg">
 		</video>
@@ -91,13 +90,6 @@
 	  
 	  var myVideo = document.getElementById("video1"); 
 	  
-	  function playPause() { 
-		if (myVideo.paused) 
-		  myVideo.play(); 
-		else 
-		  myVideo.pause(); 
-	  } 
-	  
 	  function makeBig() { 
 		  myVideo.width = 560; 
 	  } 
@@ -113,13 +105,12 @@
 	  
 	  <p style="text-align: center;">in progress...</p>
 
-	  <div style="text-align:center"> 
-		<button onclick="playPause()">Play/Pause</button> 
+	  <div style="text-align:center">
 		<button onclick="makeBig()">Big</button>
 		<button onclick="makeSmall()">Small</button>
 		<button onclick="makeNormal()">Normal</button>
 		<br><br>
-		<video id="video2" width="420">
+		<video id="video2" width="420" controls>
 		  <source src="video/clayflowervideoreduced.mp4" type="video/mp4">
 		  <source src="video/clayflowervideoreduced.ogg" type="video/ogg">
 		</video>
@@ -129,13 +120,6 @@
 	  
 	  var myVideo = document.getElementById("video2"); 
 	  
-	  function playPause() { 
-		if (myVideo.paused) 
-		  myVideo.play(); 
-		else 
-		  myVideo.pause(); 
-	  } 
-	  
 	  function makeBig() { 
 		  myVideo.width = 560; 
 	  } 
@@ -152,12 +136,11 @@
 	  <p style="text-align: center;">in progress...</p>
 
 	  <div style="text-align:center"> 
-		<button onclick="playPause()">Play/Pause</button> 
 		<button onclick="makeBig()">Big</button>
 		<button onclick="makeSmall()">Small</button>
 		<button onclick="makeNormal()">Normal</button>
 		<br><br>
-		<video id="video3" width="420">
+		<video id="video3" width="420" controls>
 		  <source src="video/legoflowervideoreduced.mp4" type="video/mp4">
 		  <source src="video/legoflowervideoreduced.ogg" type="video/ogg">
 		</video>
@@ -166,13 +149,6 @@
 	  <script> 
 	  
 	  var myVideo = document.getElementById("video3"); 
-	  
-	  function playPause() { 
-		if (myVideo.paused) 
-		  myVideo.play(); 
-		else 
-		  myVideo.pause(); 
-	  } 
 	  
 	  function makeBig() { 
 		  myVideo.width = 560; 
